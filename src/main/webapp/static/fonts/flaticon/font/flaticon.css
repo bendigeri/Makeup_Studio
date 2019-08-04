@@ -1,12 +1,13 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 17/09/2018 12:40
+  	Creation date: 25/06/2019 04:34
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -24,21 +25,11 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-razor:before { content: "\f100"; }
-.flaticon-location-pin:before { content: "\f101"; }
-.flaticon-shave:before { content: "\f102"; }
-.flaticon-barber:before { content: "\f103"; }
-.flaticon-hair-dryer:before { content: "\f104"; }
-.flaticon-spray:before { content: "\f105"; }
+.flaticon-meeting:before { content: "\f100"; }
+.flaticon-tray:before { content: "\f101"; }
+.flaticon-cake:before { content: "\f102"; }

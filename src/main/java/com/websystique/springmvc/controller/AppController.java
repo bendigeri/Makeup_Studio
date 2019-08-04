@@ -25,7 +25,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 import com.websystique.springmvc.model.User;
+import com.websystique.springmvc.model.UserMessages;
 import com.websystique.springmvc.model.UserProfile;
+import com.websystique.springmvc.service.UserMessagesService;
 import com.websystique.springmvc.service.UserProfileService;
 import com.websystique.springmvc.service.UserService;
 
@@ -50,6 +52,9 @@ public class AppController {
 	
 	@Autowired
 	AuthenticationTrustResolver authenticationTrustResolver;
+	
+	@Autowired
+	UserMessagesService userMessagesService;
 	
 	
 	/**
@@ -176,6 +181,20 @@ public class AppController {
 	public String accessDeniedPage(ModelMap model) {
 		model.addAttribute("loggedinuser", getPrincipal());
 		return "accessDenied";
+	}
+	
+	@RequestMapping(value = "/contact", method = RequestMethod.GET)
+	public String contact(ModelMap model) {
+		model.addAttribute("userMessages", new UserMessages());
+		return "contact";
+	}
+	
+	@RequestMapping(value = "/contact", method = RequestMethod.POST)
+	public String sendMessage(@Valid UserMessages userMessages, BindingResult result,
+			ModelMap model) {
+		userMessagesService.save(userMessages);
+		model.addAttribute("userMessages", new UserMessages());
+		return "contact";
 	}
 
 	/**
