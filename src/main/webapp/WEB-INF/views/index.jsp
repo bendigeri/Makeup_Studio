@@ -49,7 +49,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark" id="ftco-navbar" style="background-color: black">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Make Over</a>
+	      <a class="navbar-brand" href="index.html">MakeOver</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -89,18 +89,14 @@
 						<div class="carousel-inner" role="listbox">
 							<div class="carousel-item slider-fullscreen-image"
 								data-bg-video-slide="false"
-								style="background-image: url(./static/assets/images/4-1200x800.jpg);">
+								style="background-image: url(./static/assets/images/Accessories.jpg);">
 								<div class="container container-slide">
 									<div class="image_wrapper"	>
 										<div class="mbr-overlay"
 											style="opacity: 0.3; background-color: rgb(135, 154, 159);"></div>
-										<img src="./static/assets/images/4-1200x800.jpg">
+										<img src="./static/assets/images/Accessories.jpg">
 										<div class="carousel-caption justify-content-center">
 											<div class="col-10 align-center">
-												<p class="lead mbr-text mbr-fonts-style display-7">Choose
-													from the large selection of latest pre-made blocks -
-													jumbotrons, hero images, parallax scrolling, video
-													backgrounds, hamburger menu, sticky header and more.</p>
 											</div>
 										</div>
 									</div>
@@ -108,17 +104,15 @@
 							</div>
 							<div class="carousel-item slider-fullscreen-image active"
 								data-bg-video-slide="false"
-								style="background-image: url(./static/assets/images/10-1200x800.jpg);">
+								style="background-image: url(./static/assets/images/1-slide.jpg);">
 								<div class="container container-slide">
 									<div class="image_wrapper">
 										<div class="mbr-overlay"
 											style="opacity: 0.3; background-color: rgb(118, 118, 118);"></div>
-										<img src="./static/assets/images/10-1200x800.jpg">
+										<img src="./static/assets/images/1-slide.jpg">
 										<div class="carousel-caption justify-content-center">
 											<div class="col-10 align-center">
-												<p class="lead mbr-text mbr-fonts-style display-7">Slide
-													with youtube video background and color overlay. Title and
-													text are aligned to the left.</p>
+												<p class="lead mbr-text mbr-fonts-style display-7"></p>
 											</div>
 										</div>
 									</div>
@@ -126,18 +120,15 @@
 							</div>
 							<div class="carousel-item slider-fullscreen-image"
 								data-bg-video-slide="false"
-								style="background-image: url(./static/assets/images/2-1200x800.jpg);">
+								style="background-image: url(./static/assets/images/carousel_3.jpg);">
 								<div class="container container-slide">
 									<div class="image_wrapper">
 										<div class="mbr-overlay"
 											style="opacity: 0.4; background-color: rgb(118, 118, 118);"></div>
-										<img src="./static/assets/images/2-1200x800.jpg">
+										<img src="./static/assets/images/carousel_3.jpg">
 										<div class="carousel-caption justify-content-center">
 											<div class="col-10 align-center">
-												<p class="lead mbr-text mbr-fonts-style display-7">Choose
-													from the large selection of latest pre-made blocks -
-													jumbotrons, hero images, parallax scrolling, video
-													backgrounds, hamburger menu, sticky header and more.</p>
+												<p class="lead mbr-text mbr-fonts-style display-7"></p>
 											</div>
 										</div>
 									</div>

@@ -69,6 +69,15 @@ public class AppController {
 		return "index";
 	}
 
+	@RequestMapping(value = {"/home"}, method = RequestMethod.GET)
+	public String homePage(ModelMap model) {
+
+		List<User> users = userService.findAllUsers();
+		model.addAttribute("users", users);
+		model.addAttribute("loggedinuser", getPrincipal());
+		return "home";
+	}
+	
 	/**
 	 * This method will provide the medium to add a new user.
 	 */
@@ -201,7 +210,7 @@ public class AppController {
 	 * This method handles login GET requests.
 	 * If users is already logged-in and tries to goto login page again, will be redirected to list page.
 	 */
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	@RequestMapping(value = {"/login","/admin"}, method = RequestMethod.GET)
 	public String loginPage() {
 		if (isCurrentAuthenticationAnonymous()) {
 			return "login";
