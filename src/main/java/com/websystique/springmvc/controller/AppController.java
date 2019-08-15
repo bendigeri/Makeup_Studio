@@ -310,11 +310,11 @@ public class AppController {
         return "registrationsuccess";
     }  
     
-    @RequestMapping(value = "/getblogPhoto",method = RequestMethod.GET)
-	public void getStudentPhoto(HttpServletResponse response) throws Exception {
+    @RequestMapping(value = "/getblogPhoto/{id}",method = RequestMethod.GET)
+	public void getStudentPhoto(HttpServletResponse response,@PathVariable("id") int id) throws Exception {
 		response.setContentType("image/jpeg");
 		
-		byte[] bytes = makeupBlogService.getPhotoById(2);
+		byte[] bytes = makeupBlogService.getPhotoById(id);
 		InputStream inputStream = new ByteArrayInputStream(bytes);
 		IOUtils.copy(inputStream, response.getOutputStream());
 	}

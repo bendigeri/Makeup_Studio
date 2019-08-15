@@ -228,7 +228,10 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 			<tr>
 				<td>${makeupBlog.id}</td>
 				<td>${makeupBlog.title}</td>
-				<td><img width="100" height="100" src="getblogPhoto"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><img width="10" height="10" src="getblogPhoto/<c:out value='${makeupBlog.id}'/>"></td>
 			</tr>
 		</c:forEach>
 				</div>
