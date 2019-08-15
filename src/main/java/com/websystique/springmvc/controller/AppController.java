@@ -1,5 +1,8 @@
 package com.websystique.springmvc.controller;
 
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
@@ -7,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
+import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.security.authentication.AuthenticationTrustResolver;
@@ -22,11 +26,16 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.multipart.commons.CommonsMultipartFile;
+import org.springframework.web.servlet.ModelAndView;
 
+import com.websystique.springmvc.model.MakeupBlog;
 import com.websystique.springmvc.model.User;
 import com.websystique.springmvc.model.UserMessages;
 import com.websystique.springmvc.model.UserProfile;
+import com.websystique.springmvc.service.MakeupBlogService;
 import com.websystique.springmvc.service.UserMessagesService;
 import com.websystique.springmvc.service.UserProfileService;
 import com.websystique.springmvc.service.UserService;
@@ -56,17 +65,18 @@ public class AppController {
 	@Autowired
 	UserMessagesService userMessagesService;
 	
+	@Autowired
+	MakeupBlogService makeupBlogService;
+	
 	
 	/**
 	 * This method will list all existing users.
 	 */
-	@RequestMapping(value = { "/", "/list" }, method = RequestMethod.GET)
+	@RequestMapping(value = {"/adminHome" }, method = RequestMethod.GET)
 	public String listUsers(ModelMap model) {
 
-		List<User> users = userService.findAllUsers();
-		model.addAttribute("users", users);
-		model.addAttribute("loggedinuser", getPrincipal());
-		return "index";
+		model.addAttribute("makeupblog", new MakeupBlog());
+		return "adminHome";
 	}
 
 	@RequestMapping(value = {"/home"}, method = RequestMethod.GET)
@@ -206,6 +216,28 @@ public class AppController {
 		return "contact";
 	}
 
+	@RequestMapping(value = "/about", method = RequestMethod.GET)
+	public String aboutMe(ModelMap model) {
+		model.addAttribute("userMessages", new UserMessages());
+		return "aboutme";
+	}
+	
+	@RequestMapping(value = "/myblog", method = RequestMethod.GET)
+	public ModelAndView  myblog(ModelAndView model) {
+		
+		List<MakeupBlog> blogs= makeupBlogService.blogList();
+		System.out.println(blogs);
+		model.addObject("blogs", blogs);
+		model.setViewName("myblog");
+		return model;
+	}
+	
+	@RequestMapping(value = "/writeBlog", method = RequestMethod.GET)
+	public String adminBlog(ModelMap model) {
+		MakeupBlog makeupBlog= new MakeupBlog();
+		model.addAttribute("makeupblog", makeupBlog);
+		return "writeBlog";
+	}
 	/**
 	 * This method handles login GET requests.
 	 * If users is already logged-in and tries to goto login page again, will be redirected to list page.
@@ -215,7 +247,7 @@ public class AppController {
 		if (isCurrentAuthenticationAnonymous()) {
 			return "login";
 	    } else {
-	    	return "redirect:/list";  
+	    	return "redirect:/adminHome";  
 	    }
 	}
 
@@ -257,5 +289,34 @@ public class AppController {
 	    return authenticationTrustResolver.isAnonymous(authentication);
 	}
 
+	     
+    @RequestMapping(value = "/postBlog", method = RequestMethod.POST)
+    public String postBlog(HttpServletRequest request,
+            @RequestParam CommonsMultipartFile[] fileUpload,@Valid MakeupBlog makeupBlog, BindingResult result,
+			ModelMap model) throws Exception {
+          
+        if (fileUpload != null && fileUpload.length > 0) {
+            for (CommonsMultipartFile aFile : fileUpload){
+                  
+                System.out.println("Saving file: " + aFile.getOriginalFilename());
+                 
+                makeupBlog.setFileBytes(aFile.getBytes());
+                makeupBlog.setPostDate(new Date());
+                makeupBlog.setPostStatus("draft");
+                makeupBlogService.save(makeupBlog);               
+            }
+        }
+  
+        return "registrationsuccess";
+    }  
+    
+    @RequestMapping(value = "/getblogPhoto",method = RequestMethod.GET)
+	public void getStudentPhoto(HttpServletResponse response) throws Exception {
+		response.setContentType("image/jpeg");
+		
+		byte[] bytes = makeupBlogService.getPhotoById(2);
+		InputStream inputStream = new ByteArrayInputStream(bytes);
+		IOUtils.copy(inputStream, response.getOutputStream());
+	}
 
 }

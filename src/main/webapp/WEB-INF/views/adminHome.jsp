@@ -125,15 +125,15 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 					<ul class="navigation">
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/home'/>">Home</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/about'/>">Know Me</a></li>
+							href="<c:url value='/adminHome'/>">Home</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="http://swativerma.com/services/">Gallary</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/myblog'/>">My Blog</a></li>
+							href="<c:url value='/writeBlog'/>">Write Blog</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
+							href="<c:url value='/myBlogs'/>">My Blogs</a></li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/contact'/>" class="nav-link">Messages</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -345,17 +345,7 @@ $(document).ready(readyFn);
 }
 </style>
 
-							<li class="blog_column">
-								<h2 style="font-family: 'Playfair Display', serif;">My
-									latest blog post</h2>
-								<p>&nbsp; Hi, my loves, I am Super excited to share this
-									news with you, and I know that this is something many of my
-									followers have been waiting for! Ever since the first 2 batches
-									were SOLD OUT, I’ve been getting msgs from so many of you who
-									couldn’t enroll. So Finally I have decided to give you guys...</p>
-
-								<div class="page_rdm">Read the post</div> </a>
-							</li>
+							
 
 						</ul>
 
