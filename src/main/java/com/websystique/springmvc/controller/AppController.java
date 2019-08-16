@@ -303,6 +303,7 @@ public class AppController {
                 makeupBlog.setFileBytes(aFile.getBytes());
                 makeupBlog.setPostDate(new Date());
                 makeupBlog.setPostStatus("draft");
+                makeupBlog.setShortArticleContent(makeupBlog.getArticleContent().substring(0, 300));
                 makeupBlogService.save(makeupBlog);               
             }
         }
@@ -318,5 +319,23 @@ public class AppController {
 		InputStream inputStream = new ByteArrayInputStream(bytes);
 		IOUtils.copy(inputStream, response.getOutputStream());
 	}
+    
+   /* @RequestMapping(value = "/readMyblog/{id}",method = RequestMethod.GET)
+	public String readMyblog(@PathVariable("id") int id,ModelMap model) throws Exception {
+		
+		MakeupBlog makeupBlog = makeupBlogService.getBlogById(id);
+		model.addAttribute("makeupBlog", makeupBlog);
+		return "blogDetail";
+	}*/
 
+	/*@RequestMapping(value = "/readMyblog/{id}", method = RequestMethod.GET)
+	public ModelAndView  readMyblog(@PathVariable("id") int id,ModelAndView model) {
+		
+		MakeupBlog makeupBlog = makeupBlogService.getBlogById(id);
+		
+		model.addObject("makeupBlog", makeupBlog);
+		model.setViewName("blogDetail");
+		return model;
+	}*/
+    
 }

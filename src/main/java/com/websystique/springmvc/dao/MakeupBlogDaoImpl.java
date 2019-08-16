@@ -33,4 +33,10 @@ public class MakeupBlogDaoImpl extends AbstractDao<Integer, MakeupBlog> implemen
 		return makeupBlog.getFileBytes();
 	}
 
+	@Override
+	public MakeupBlog getBlogById(int id) {
+		MakeupBlog makeupBlog= getByKey(id);
+		return makeupBlog;
+	}
+
 }

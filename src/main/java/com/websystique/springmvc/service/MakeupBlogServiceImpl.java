@@ -32,4 +32,9 @@ public class MakeupBlogServiceImpl implements MakeupBlogService{
 		return dao.getPhotoById(id);
 	}
 
+	@Override
+	public MakeupBlog getBlogById(int id) {
+		return dao.getBlogById(id);
+	}
+
 }

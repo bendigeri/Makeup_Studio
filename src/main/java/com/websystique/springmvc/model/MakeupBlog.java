@@ -44,6 +44,17 @@ public class MakeupBlog implements Serializable{
 	@Column(name="post_date")
 	private Date postDate;
 
+	@Column(name="short_article_content")
+	private String shortArticleContent;
+	
+	public String getShortArticleContent() {
+		return shortArticleContent;
+	}
+
+	public void setShortArticleContent(String shortArticleContent) {
+		this.shortArticleContent = shortArticleContent;
+	}
+
 	public Integer getId() {
 		return id;
 	}
@@ -81,6 +92,7 @@ public class MakeupBlog implements Serializable{
 	}
 
 	public void setArticleContent(String articleContent) {
+		
 		this.articleContent = articleContent;
 	}
 
@@ -92,8 +104,4 @@ public class MakeupBlog implements Serializable{
 		this.postDate = postDate;
 	}
 
-	
-	
-	
-	
 }

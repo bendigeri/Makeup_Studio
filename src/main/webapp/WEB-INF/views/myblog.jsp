@@ -165,15 +165,20 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 
 					<ul class="navigation">
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/home'/>">Home</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/about'/>">Know Me</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="http://swativerma.com/services/">Gallary</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/myblog'/>">My Blog</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
 					</ul>
 				</nav>
@@ -196,44 +201,37 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 							beauty trends.</p>
 					</div>
 
+					<!-- .hentry -->
 
-			
-					<!-- <div id=""
-						class="hentry post publish post-2 even alt author-swatieditor has-more-link category-personal category-sponsored post_tag-audiobooks post_tag-personal-development post_tag-swati-verma post_tag-travel"
-						style="background-image: url('http://swativerma.com/wp-content/uploads/2018/04/swati-verma-storytel.jpg');">
+					<c:forEach var="makeupBlog" items="${blogs}">
+
+						<div id=""
+							class="hentry post publish post-2 even alt author-swatieditor has-more-link category-personal category-sponsored post_tag-audiobooks post_tag-personal-development post_tag-swati-verma post_tag-travel"
+							style="background-image: url('getblogPhoto/<c:out value='${makeupBlog.id}'/>');">
 
 
-						<div class="blog_content">
-							<div class="blog_content_wrap">
-								<h2>Get inspired by listening &#8211; the perfect app for a
-									hectic life</h2>
-								<p class="thedate"><strong>2018-04-26</strong></p>
-								<p>/In collaboration with Storytel/ Hello my lovelies! How
-									are you? So good to be back on the blog! It has been a very
-									hectic time. Well, my life is kind of hectic anyway. As I have
-									clients and attend events all over the world, I constantly find
-									myself being on my way to somewhere. Jumping [&hellip;]</p>
+							<div class="blog_content">
+								<div class="blog_content_wrap">
+									<h2>${makeupBlog.title}</h2>
+									<p class="thedate">
+										<strong>2018-04-26</strong>
+									</p>
+									<p>${makeupBlog.shortArticleContent}[&hellip;]</p>
 
-								<a class="blog_rdm"
-									href="http://swativerma.com/audiobooks-inspiration/">Read
-									more</a>
+									<a class="blog_rdm"
+										href="<c:url value='/readMyblog/${makeupBlog.id}'/>">Read
+										more</a>
+								</div>
 							</div>
+
+
 						</div>
 
-
-					</div> -->
-					<!-- .hentry -->
-					
-					<c:forEach var="makeupBlog" items="${blogs}">
-			<tr>
-				<td>${makeupBlog.id}</td>
-				<td>${makeupBlog.title}</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td><img width="10" height="10" src="getblogPhoto/<c:out value='${makeupBlog.id}'/>"></td>
-			</tr>
-		</c:forEach>
+						<tr>
+							<td><img width="10" height="10"
+								src="getblogPhoto/<c:out value='${makeupBlog.id}'/>"></td>
+						</tr>
+					</c:forEach>
 				</div>
 				<!-- .content .hfeed -->
 			</div>
