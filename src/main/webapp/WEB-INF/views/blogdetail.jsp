@@ -47,7 +47,8 @@
 <script type="text/javascript"
 	src="http://swativerma.com/wp-content/themes/swati/js/lightbox.js"></script>
 
-<title>Blog</title>
+<title>Get inspired by listening &#8211; the perfect app for a
+	hectic life</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="http://swativerma.com/xmlrpc.php" />
 
@@ -110,6 +111,18 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 	href="http://swativerma.com/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml"
 	href="http://swativerma.com/wp-includes/wlwmanifest.xml" />
+<link rel='prev' title='Swati Verma Masterclass the 22:nd of October'
+	href='http://swativerma.com/swati-verma-masterclass-new-delhi/' />
+<link rel='next'
+	title='SURPRISE! I am launching my next Pro Makeup Course!'
+	href='http://swativerma.com/swati-verma-makeup-course/' />
+<link rel="canonical"
+	href="http://swativerma.com/audiobooks-inspiration/" />
+<link rel='shortlink' href='http://swativerma.com/?p=1175' />
+<link rel="alternate" type="application/json+oembed"
+	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Faudiobooks-inspiration%2F" />
+<link rel="alternate" type="text/xml+oembed"
+	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Faudiobooks-inspiration%2F&#038;format=xml" />
 <style type="text/css">
 .recentcomments a {
 	display: inline !important;
@@ -125,7 +138,7 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 </head>
 
 <body
-	class="wordpress ltr en_US child-theme y2019 m08 d11 h19 sunday logged-out blog chrome primary-active secondary-inactive subsidiary-inactive">
+	class="wordpress ltr en_US child-theme y2019 m08 d16 h19 friday logged-out singular singular-post singular-post-1175 single-1175 chrome primary-active secondary-inactive subsidiary-inactive">
 
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -165,141 +178,155 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 
 					<ul class="navigation">
-						<li
-							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/home'/>">Home</a></li>
-						<li
-							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/about'/>">Know Me</a></li>
-						<li
-							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="http://swativerma.com/services/">Gallary</a></li>
-						<li
-							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/myblog'/>">My Blog</a></li>
-						<li
-							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
+
+						<li id="menu-item-32"
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a
+							href="http://swativerma.com/bio/">Bio</a></li>
+						<li id="menu-item-27"
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a
+							href="http://swativerma.com/portfolio/">Portfolio</a></li>
+						<li id="menu-item-28"
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a
+							href="http://swativerma.com/services/">Services</a></li>
+						<li id="menu-item-551"
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a
+							href="http://swativerma.com/courses/">COURSES</a></li>
+						<li id="menu-item-24"
+							class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-24"><a
+							href="http://swativerma.com/blog/">Makeup blog</a></li>
+						<li id="menu-item-25"
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a
+							href="http://swativerma.com/contact/">Contact</a></li>
+						<li id="menu-item-1734"
+							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1734"><a
+							href="https://swativerma.serviceform.com/serviceform/14663">Book
+								now</a></li>
+
+
 					</ul>
 				</nav>
 
 			</header>
 
-			<div class="init blog_feed" id="">
+			<div class="init text_page" id="">
 
-				<div id="blogfeed" class="hfeed">
+				<div id="pagepost" class="hfeed">
 
-					<div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
-						<span class="trail-before">Browse:</span> <span
-							class="trail-begin"><a href="http://swativerma.com"
-							title="Swati Verma" rel="home" class="trail-begin">Home</a></span> <span
-							class="sep">/</span> <span class="trail-end">Blog</span>
+
+					<div id="post-1175"
+						class="hentry post publish post-1 odd author-swatieditor category-personal category-sponsored post_tag-audiobooks post_tag-personal-development post_tag-swati-verma post_tag-travel">
+
+						<h2>${makeupBlog.title}</h2>
+						<!--<p class="thedate"><strong>2018-04-26</strong></p>-->
+						<div class="entry-content">
+							<p>
+								<img class="aligncenter size-full wp-image-1177"
+									src="getblogPhoto/<c:out value='${makeupBlog.id}'/>"
+									alt="swati verma storytel" width="2500" height="2981"
+									sizes="(max-width: 2500px) 100vw, 2500px" />
+							</p>
+							<p>
+								<em><strong>/In collaboration with Storytel/</strong></em>
+							</p>
+							<p>Hello my lovelies!</p>
+							<p>How are you? So good to be back on the blog! It has been a
+								very hectic time. Well, my life is kind of hectic anyway. As I
+								have clients and attend events all over the world, I constantly
+								find myself being on my way to somewhere. Jumping in a taxi,
+								queuing at the airport and then catching a flight to some remote
+								destination.</p>
+							<p>
+								It may sound stressful. And it is for sure, but I love my life
+								and because of that I do not really mind the long days and
+								irregular schedule. Besides, I recently found a great app that I
+								would love to share with you. <span id="more-1175"></span>It has
+								been very inspiring to me, as to how to make the most of my time
+								whilst in transit.
+							</p>
+							
+						</div>
+						<!-- .entry-content -->
+
+
+
 					</div>
-					<div class="blogintro">
-						<h1>Swati’s World</h1>
-						<p>Read Swati’s take on all the HOTTEST global make-up and
-							beauty trends.</p>
-					</div>
-
 					<!-- .hentry -->
 
-					<c:forEach var="makeupBlog" items="${blogs}">
-
-						<div id=""
-							class="hentry post publish post-2 even alt author-swatieditor has-more-link category-personal category-sponsored post_tag-audiobooks post_tag-personal-development post_tag-swati-verma post_tag-travel"
-							style="background-image: url('getblogPhoto/<c:out value='${makeupBlog.id}'/>');">
 
 
-							<div class="blog_content">
-								<div class="blog_content_wrap">
-									<h2>${makeupBlog.title}</h2>
-									<p class="thedate">
-										<strong>2018-04-26</strong>
-									</p>
-									<p>${makeupBlog.shortArticleContent}[&hellip;]</p>
-
-									<a class="blog_rdm"
-										href="<c:url value='/blogDetail/${makeupBlog.id}'/>">Read
-										more</a>
-								</div>
-							</div>
 
 
-						</div>
 
-						<tr>
-							<td><img width="10" height="10"
-								src="getblogPhoto/<c:out value='${makeupBlog.id}'/>"></td>
-						</tr>
-					</c:forEach>
+
 				</div>
 				<!-- .content .hfeed -->
+
+
+
+				<footer id="contact">
+					<div class="fcont_wrap">
+						<ul class="footer_col" style="text-align: left;">
+							<li><p>© Swati Verma 2019</p></li>
+							<li><p>
+									<strong>My aim is to make every woman feel truly
+										HEAVENLY!</strong>
+								</p></li>
+						</ul>
+
+						<ul class="footer_col">
+							<li><p>
+									<strong>Follow me on</strong>
+								</p></li>
+							<li><a href="https://www.instagram.com/swativerma/"
+								target="_blank"><i class="fa fa-instagram"></i></a> <a
+								href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
+								target="_blank"><i class="fa fa-youtube"></i></a> <a
+								href="https://www.facebook.com/swativermaofficial"
+								target="_blank"><i class="fa fa-facebook"></i></a> <a
+								href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
+									class="fa fa-snapchat-ghost"></i></a></li>
+						</ul>
+
+						<ul class="footer_col" style="text-align: right;">
+							<li><p>
+									<a href="/services">Interested in Swatis make-up? <strong
+										style="text-decoration: underline;">Book now!</strong></a>
+								</p></li>
+							<li><p>
+									Contact us <strong><a
+										href="mailto:info@swativerma.com">info@swativerma.com</a></strong>
+								</p></li>
+							<li><p>
+									Read <strong><a href="/terms-and-conditions">Terms
+											and Conditions</a></strong>
+								</p></li>
+
+						</ul>
+					</div>
+				</footer>
+
+
+
 			</div>
+			<!-- #container -->
 
-
-			<footer id="contact">
-				<div class="fcont_wrap">
-					<ul class="footer_col" style="text-align: left;">
-						<li><p>© Swati Verma 2019</p></li>
-						<li><p>
-								<strong>My aim is to make every woman feel truly
-									HEAVENLY!</strong>
-							</p></li>
-					</ul>
-
-					<ul class="footer_col">
-						<li><p>
-								<strong>Follow me on</strong>
-							</p></li>
-						<li><a href="https://www.instagram.com/swativerma/"
-							target="_blank"><i class="fa fa-instagram"></i></a> <a
-							href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
-							target="_blank"><i class="fa fa-youtube"></i></a> <a
-							href="https://www.facebook.com/swativermaofficial"
-							target="_blank"><i class="fa fa-facebook"></i></a> <a
-							href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
-								class="fa fa-snapchat-ghost"></i></a></li>
-					</ul>
-
-					<ul class="footer_col" style="text-align: right;">
-						<li><p>
-								<a href="/services">Interested in Swatis make-up? <strong
-									style="text-decoration: underline;">Book now!</strong></a>
-							</p></li>
-						<li><p>
-								Contact us <strong><a href="mailto:info@swativerma.com">info@swativerma.com</a></strong>
-							</p></li>
-						<li><p>
-								Read <strong><a href="/terms-and-conditions">Terms
-										and Conditions</a></strong>
-							</p></li>
-
-					</ul>
-				</div>
-			</footer>
 
 
 
 		</div>
-		<!-- #container -->
-
-
-
-
-	</div>
-	<!-- #body-container -->
+		<!-- #body-container -->
 
 
 
 
 
 
-	<script type='text/javascript'
-		src='http://swativerma.com/wp-content/themes/hybrid/library/js/drop-downs.min.js?ver=20110920'></script>
-	<script type='text/javascript'
-		src='http://swativerma.com/wp-includes/js/wp-embed.min.js?ver=4.9.10'></script>
+		<script type='text/javascript'
+			src='http://swativerma.com/wp-content/themes/hybrid/library/js/drop-downs.min.js?ver=20110920'></script>
+		<script type='text/javascript'
+			src='http://swativerma.com/wp-includes/js/wp-embed.min.js?ver=4.9.10'></script>
 
-	<script type="text/javascript">
+		<script type="text/javascript">
 	
 //Function to react to screen re-sizing
 function doneResizing() {
@@ -364,15 +391,14 @@ doneResizing();
 
 
 
-	<script type="text/javascript"
-		src="http://swativerma.com/wp-content/themes/swati/js/main.js"></script>
-
+		<script type="text/javascript"
+			src="http://swativerma.com/wp-content/themes/swati/js/main.js"></script>
 </body>
 
 </html>
 
 
-<!-- Dynamic page generated in 0.238 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2019-08-11 19:18:37 -->
+<!-- Dynamic page generated in 0.212 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-08-16 19:53:35 -->
 
 <!-- super cache -->

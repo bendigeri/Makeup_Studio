@@ -312,7 +312,7 @@ public class AppController {
     }  
     
     @RequestMapping(value = "/getblogPhoto/{id}",method = RequestMethod.GET)
-	public void getStudentPhoto(HttpServletResponse response,@PathVariable("id") int id) throws Exception {
+	public void getMyBlogPhoto(HttpServletResponse response,@PathVariable("id") int id) throws Exception {
 		response.setContentType("image/jpeg");
 		
 		byte[] bytes = makeupBlogService.getPhotoById(id);
@@ -320,22 +320,24 @@ public class AppController {
 		IOUtils.copy(inputStream, response.getOutputStream());
 	}
     
-   /* @RequestMapping(value = "/readMyblog/{id}",method = RequestMethod.GET)
-	public String readMyblog(@PathVariable("id") int id,ModelMap model) throws Exception {
+    @RequestMapping(value = "*/getblogPhoto/{id}",method = RequestMethod.GET)
+ 	public void getDetailblogPhoto(HttpServletResponse response,@PathVariable("id") int id) throws Exception {
+ 		response.setContentType("image/jpeg");
+ 		
+ 		byte[] bytes = makeupBlogService.getPhotoById(id);
+ 		InputStream inputStream = new ByteArrayInputStream(bytes);
+ 		IOUtils.copy(inputStream, response.getOutputStream());
+ 	}
+    
+  
+    @RequestMapping(value = {"/blogDetail/{id}"}, method = RequestMethod.GET)
+	public ModelAndView readMyblog(ModelAndView model,@PathVariable("id") int id) {
 		
-		MakeupBlog makeupBlog = makeupBlogService.getBlogById(id);
-		model.addAttribute("makeupBlog", makeupBlog);
-		return "blogDetail";
-	}*/
-
-	/*@RequestMapping(value = "/readMyblog/{id}", method = RequestMethod.GET)
-	public ModelAndView  readMyblog(@PathVariable("id") int id,ModelAndView model) {
-		
-		MakeupBlog makeupBlog = makeupBlogService.getBlogById(id);
-		
+		MakeupBlog makeupBlog= makeupBlogService.getBlogById(id);
+		System.out.println(makeupBlog);
 		model.addObject("makeupBlog", makeupBlog);
-		model.setViewName("blogDetail");
+		model.setViewName("blogdetail");
 		return model;
-	}*/
+	}
     
 }
