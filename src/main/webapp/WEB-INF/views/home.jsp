@@ -120,7 +120,7 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/about'/>">Know Me</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="http://swativerma.com/services/">Gallary</a></li>
+							href="<c:url value='/gallery'/>">Gallary</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/myblog'/>">My Blog</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a

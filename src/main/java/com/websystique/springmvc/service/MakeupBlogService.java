@@ -1,6 +1,5 @@
 package com.websystique.springmvc.service;
 
-import java.sql.Blob;
 import java.util.List;
 
 import com.websystique.springmvc.model.MakeupBlog;

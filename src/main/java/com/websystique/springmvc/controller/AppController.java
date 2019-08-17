@@ -33,10 +33,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.websystique.springmvc.model.Gallery;
 import com.websystique.springmvc.model.MakeupBlog;
 import com.websystique.springmvc.model.User;
 import com.websystique.springmvc.model.UserMessages;
 import com.websystique.springmvc.model.UserProfile;
+import com.websystique.springmvc.service.GalleryService;
 import com.websystique.springmvc.service.MakeupBlogService;
 import com.websystique.springmvc.service.UserMessagesService;
 import com.websystique.springmvc.service.UserProfileService;
@@ -69,7 +71,9 @@ public class AppController {
 	
 	@Autowired
 	MakeupBlogService makeupBlogService;
-	
+
+	@Autowired
+	GalleryService galleryService;
 	
 	/**
 	 * This method will list all existing users.
@@ -252,12 +256,6 @@ public class AppController {
 		return model;
 	}
 	
-	@RequestMapping(value = "/writeBlog", method = RequestMethod.GET)
-	public String adminBlog(ModelMap model) {
-		MakeupBlog makeupBlog= new MakeupBlog();
-		model.addAttribute("makeupblog", makeupBlog);
-		return "writeBlog";
-	}
 	/**
 	 * This method handles login GET requests.
 	 * If users is already logged-in and tries to goto login page again, will be redirected to list page.
@@ -309,7 +307,13 @@ public class AppController {
 	    return authenticationTrustResolver.isAnonymous(authentication);
 	}
 
-	     
+	@RequestMapping(value = "/writeBlog", method = RequestMethod.GET)
+	public String adminBlog(ModelMap model) {
+		MakeupBlog makeupBlog= new MakeupBlog();
+		model.addAttribute("makeupblog", makeupBlog);
+		return "writeBlog";
+	}
+	
     @RequestMapping(value = "/postBlog", method = RequestMethod.POST)
     public String postBlog(HttpServletRequest request,
             @RequestParam CommonsMultipartFile[] fileUpload,@Valid MakeupBlog makeupBlog, BindingResult result,
@@ -359,5 +363,51 @@ public class AppController {
 		model.setViewName("blogdetail");
 		return model;
 	}
+    
+    @RequestMapping(value = "/getGelleryPhoto/{id}",method = RequestMethod.GET)
+	public void getGalleryPhoto(HttpServletResponse response,@PathVariable("id") int id) throws Exception {
+		response.setContentType("image/jpeg");
+		
+		byte[] bytes = galleryService.getPhotoById(id);
+		InputStream inputStream = new ByteArrayInputStream(bytes);
+		IOUtils.copy(inputStream, response.getOutputStream());
+	}
+    
+
+    @RequestMapping(value = "/gallery", method = RequestMethod.GET)
+	public ModelAndView getGalleryPhotos(ModelAndView model) {
+
+    	List<Gallery> galleryPhotos= galleryService.getGalleryImages();
+    	model.addObject("galleryPhotos", galleryPhotos);
+    	model.setViewName("gallery");
+		return model;
+	}
+    
+    @RequestMapping(value = "/adminGallery", method = RequestMethod.GET)
+	public String adminGallery(ModelMap model) {
+		Gallery gallery= new Gallery();
+		model.addAttribute("gallery", gallery);
+		return "adminGallery";
+	}
+    
+    @RequestMapping(value = "/uploadImage", method = RequestMethod.POST)
+    public String uploadImageToGallery(HttpServletRequest request,
+            @RequestParam CommonsMultipartFile[] fileUpload,@Valid Gallery gallery, BindingResult result,
+			ModelMap model) throws Exception {
+          
+        if (fileUpload != null && fileUpload.length > 0) {
+            for (CommonsMultipartFile aFile : fileUpload){
+                  
+                System.out.println("Saving file: " + aFile.getOriginalFilename());
+                 
+                gallery.setFileBytes(aFile.getBytes());
+                gallery.setUploadDate(new Date());
+                gallery.setImageCategory("draft");
+                galleryService.save(gallery);               
+            }
+        }
+  
+        return "registrationsuccess";
+    }  
     
 }
