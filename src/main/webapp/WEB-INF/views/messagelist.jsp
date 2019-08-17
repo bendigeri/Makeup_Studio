@@ -7,34 +7,43 @@
 <html lang="en-US"
 	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 <head>
-<link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/style.css"
-	type="text/css" media="all" />
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link
-	href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900'
-	rel='stylesheet' type='text/css'>
-<link
-	href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i"
-	rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
-	rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
 
+<link rel="stylesheet" href="./static/css/style.css" type='text/css'>
 <link rel="stylesheet" href="./static/css/font-awesome.min.css">
 <link rel="stylesheet" href="./static/css/lightbox.css">
 
-<script src="http://code.jquery.com/jquery-3.1.1.min.js"
-	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./static/js/modernizr.js"></script>
 <script type="text/javascript" src="./static/js/TweenMax.min.js"></script>
 <script type="text/javascript" src="./static/js/ScrollToPlugin.min.js"></script>
 <script type="text/javascript" src="./static/js/ScrollMagic.js"></script>
-<script type="text/javascript"
-	src="./static/js/plugins/animation.gsap.js"></script>
+<script type="text/javascript" src="./static/js/plugins/animation.gsap.js"></script>
 <script type="text/javascript" src="./static/js/lightbox.js"></script>
+<link rel='stylesheet' id='fts-feeds-css' href='./static/css/styles_4.9.10.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fts-popup-css'
+	href='./static/css/magnific-popup.css?ver=4.9.10'
+	type='text/css' media='all' />
+<script type='text/javascript'
+	src='./static/js/jquery.js'></script>
+<script type='text/javascript'
+	src='./static/js/jquery-migrate.min.js'></script>
+<script type='text/javascript'
+	src='./static/js/admin.js'></script>
+<script type='text/javascript'
+	src='./static/js/masonry.pkgd.min.js'></script>
+<script type='text/javascript'
+	src='./static/js/imagesloaded.pkgd.min.js'></script>
+<script type='text/javascript'
+	src='./static/js/fts-global.js'></script>
+<script type='text/javascript'
+	src='./static/js/magnific-popup.js'></script>
 
 <title>SURPRISE! I am launching my next Pro Makeup Course!</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -46,11 +55,6 @@
 <meta name="generator" content="WordPress 4.9.10" />
 <meta name="template" content="Hybrid 1.2" />
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml"
-	title="Swati Verma &raquo; Feed" href="http://swativerma.com/feed/" />
-<link rel="alternate" type="application/rss+xml"
-	title="Swati Verma &raquo; Comments Feed"
-	href="http://swativerma.com/comments/feed/" />
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript">
@@ -58,13 +62,7 @@
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 
-<link href="https://www.jqueryscript.net/css/jquerysctipttop.css"
-	rel="stylesheet" type="text/css">
-<script type="text/javascript"
-	src="./static/js/smpSortable/smpSortableTable.js"></script>
-
-<link rel="stylesheet"
-	href="./static/css/smpSortable/smpSortableTable.css">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 <style>
 #message-table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;

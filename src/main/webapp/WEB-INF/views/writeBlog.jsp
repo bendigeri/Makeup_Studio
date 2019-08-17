@@ -7,9 +7,7 @@
 <html lang="en-US"
 	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 <head>
-<link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/style.css"
-	type="text/css" media="all" />
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,6 +15,7 @@
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
 
+<link rel="stylesheet" href="./static/css/style.css" type='text/css'>
 <link rel="stylesheet" href="./static/css/font-awesome.min.css">
 <link rel="stylesheet" href="./static/css/lightbox.css">
 
@@ -27,6 +26,24 @@
 <script type="text/javascript" src="./static/js/ScrollMagic.js"></script>
 <script type="text/javascript" src="./static/js/plugins/animation.gsap.js"></script>
 <script type="text/javascript" src="./static/js/lightbox.js"></script>
+<link rel='stylesheet' id='fts-feeds-css' href='./static/css/styles_4.9.10.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fts-popup-css'
+	href='./static/css/magnific-popup.css?ver=4.9.10'
+	type='text/css' media='all' />
+<script type='text/javascript'
+	src='./static/js/jquery.js'></script>
+<script type='text/javascript'
+	src='./static/js/jquery-migrate.min.js'></script>
+<script type='text/javascript'
+	src='./static/js/admin.js'></script>
+<script type='text/javascript'
+	src='./static/js/masonry.pkgd.min.js'></script>
+<script type='text/javascript'
+	src='./static/js/imagesloaded.pkgd.min.js'></script>
+<script type='text/javascript'
+	src='./static/js/fts-global.js'></script>
+<script type='text/javascript'
+	src='./static/js/magnific-popup.js'></script>
 
 <title>SURPRISE! I am launching my next Pro Makeup Course!</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
