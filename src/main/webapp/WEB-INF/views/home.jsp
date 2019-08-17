@@ -10,29 +10,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- <link rel="shortcut icon" href="http://swativerma.com/wp-content/themes/swati/img/logo.svg" type="image/x-icon" /> -->
 
-<link
-	href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900'
-	rel='stylesheet' type='text/css'>
-<link
-	href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i"
-	rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
-	rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
 
 <link rel="stylesheet" href="./static/css/font-awesome.min.css">
 <link rel="stylesheet" href="./static/css/lightbox.css">
 
-<script src="http://code.jquery.com/jquery-3.1.1.min.js"
-	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./static/js/modernizr.js"></script>
 <script type="text/javascript" src="./static/js/TweenMax.min.js"></script>
 <script type="text/javascript" src="./static/js/ScrollToPlugin.min.js"></script>
 <script type="text/javascript" src="./static/js/ScrollMagic.js"></script>
-<script type="text/javascript"
-	src="./static/js/plugins/animation.gsap.js"></script>
+<script type="text/javascript" src="./static/js/plugins/animation.gsap.js"></script>
 <script type="text/javascript" src="./static/js/lightbox.js"></script>
 
 <title>Makeover By Manjuvani Vikrant</title>

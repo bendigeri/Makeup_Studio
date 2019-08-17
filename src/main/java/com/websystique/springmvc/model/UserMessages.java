@@ -80,4 +80,14 @@ public class UserMessages implements Serializable{
 	}
 	
 	
+	@Override
+    public String toString() 
+    { 
+        return "[userName="
+            + userName 
+            + ", email="
+            + email 
+            + ", subject="
+            + subject + "]"; 
+    } 
 }

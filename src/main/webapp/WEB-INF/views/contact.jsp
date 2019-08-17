@@ -69,43 +69,6 @@ img.wp-smiley, img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='fts-feeds-css'
-	href='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/css/styles.css?ver=4.9.10'
-	type='text/css' media='all' />
-<link rel='stylesheet' id='fts-popup-css'
-	href='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/css/magnific-popup.css?ver=4.9.10'
-	type='text/css' media='all' />
-<script type='text/javascript'
-	src='http://swativerma.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
-var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
-/* ]]> */
-</script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/admin/js/admin.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/masonry.pkgd.min.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/imagesloaded.pkgd.min.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/fts-global.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/magnific-popup.js?ver=4.9.10'></script>
-<link rel='https://api.w.org/' href='http://swativerma.com/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD"
-	href="http://swativerma.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml"
-	href="http://swativerma.com/wp-includes/wlwmanifest.xml" />
-<link rel="canonical" href="http://swativerma.com/contact/" />
-<link rel='shortlink' href='http://swativerma.com/?p=18' />
-<link rel="alternate" type="application/json+oembed"
-	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Fcontact%2F" />
-<link rel="alternate" type="text/xml+oembed"
-	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Fcontact%2F&#038;format=xml" />
 <style type="text/css">
 .recentcomments a {
 	display: inline !important;

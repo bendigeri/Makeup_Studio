@@ -31,6 +31,8 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.websystique.springmvc.model.MakeupBlog;
 import com.websystique.springmvc.model.User;
 import com.websystique.springmvc.model.UserMessages;
@@ -214,6 +216,24 @@ public class AppController {
 		userMessagesService.save(userMessages);
 		model.addAttribute("userMessages", new UserMessages());
 		return "contact";
+	}
+	
+	@RequestMapping(value = "/getMessages", method = RequestMethod.GET)
+	public ModelAndView getMessages(@Valid UserMessages userMessages, BindingResult result,
+			ModelAndView model) {
+		List<UserMessages> msgList= userMessagesService.getMessageList();
+		ObjectMapper mapper= new ObjectMapper();
+		String jsonMsgStr = "";
+		try {
+			jsonMsgStr= mapper.writeValueAsString(msgList);
+			System.out.println(jsonMsgStr);
+		} catch (JsonProcessingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		model.addObject("msgList", msgList);
+		model.setViewName("messagelist");
+		return model;
 	}
 
 	@RequestMapping(value = "/about", method = RequestMethod.GET)

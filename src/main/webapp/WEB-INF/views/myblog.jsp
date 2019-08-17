@@ -227,10 +227,6 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 
 						</div>
 
-						<tr>
-							<td><img width="10" height="10"
-								src="getblogPhoto/<c:out value='${makeupBlog.id}'/>"></td>
-						</tr>
 					</c:forEach>
 				</div>
 				<!-- .content .hfeed -->

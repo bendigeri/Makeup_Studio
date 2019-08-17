@@ -13,38 +13,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="shortcut icon"
-	href="http://swativerma.com/wp-content/themes/swati/img/logo.svg"
-	type="image/x-icon" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
 
-<link
-	href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900'
-	rel='stylesheet' type='text/css'>
-<link
-	href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i"
-	rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
-	rel="stylesheet">
-<link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/css/font-awesome.min.css">
-<link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/css/lightbox.css">
+<link rel="stylesheet" href="./static/css/font-awesome.min.css">
+<link rel="stylesheet" href="./static/css/lightbox.css">
 
-<script src="http://code.jquery.com/jquery-3.1.1.min.js"
-	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	crossorigin="anonymous"></script>
-<script
-	src="http://swativerma.com/wp-content/themes/swati/js/modernizr.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/TweenMax.min.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/ScrollToPlugin.min.js"></script>
-<script
-	src="http://swativerma.com/wp-content/themes/swati/js/ScrollMagic.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/plugins/animation.gsap.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/lightbox.js"></script>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./static/js/modernizr.js"></script>
+<script type="text/javascript" src="./static/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="./static/js/ScrollToPlugin.min.js"></script>
+<script type="text/javascript" src="./static/js/ScrollMagic.js"></script>
+<script type="text/javascript" src="./static/js/plugins/animation.gsap.js"></script>
+<script type="text/javascript" src="./static/js/lightbox.js"></script>
 
 <title>SURPRISE! I am launching my next Pro Makeup Course!</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -78,47 +60,6 @@ img.wp-smiley, img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='fts-feeds-css'
-	href='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/css/styles.css?ver=4.9.10'
-	type='text/css' media='all' />
-<link rel='stylesheet' id='fts-popup-css'
-	href='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/css/magnific-popup.css?ver=4.9.10'
-	type='text/css' media='all' />
-<script type='text/javascript'
-	src='http://swativerma.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
-var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
-/* ]]> */
-</script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/admin/js/admin.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/masonry.pkgd.min.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/imagesloaded.pkgd.min.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/fts-global.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/magnific-popup.js?ver=4.9.10'></script>
-<link rel='https://api.w.org/' href='http://swativerma.com/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD"
-	href="http://swativerma.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml"
-	href="http://swativerma.com/wp-includes/wlwmanifest.xml" />
-<link rel='prev'
-	title='Get inspired by listening &#8211; the perfect app for a hectic life'
-	href='http://swativerma.com/audiobooks-inspiration/' />
-<link rel="canonical"
-	href="http://swativerma.com/swati-verma-makeup-course/" />
-<link rel='shortlink' href='http://swativerma.com/?p=1263' />
-<link rel="alternate" type="application/json+oembed"
-	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Fswati-verma-makeup-course%2F" />
-<link rel="alternate" type="text/xml+oembed"
-	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Fswati-verma-makeup-course%2F&#038;format=xml" />
 <style type="text/css">
 .recentcomments a {
 	display: inline !important;
@@ -252,7 +193,7 @@ input[type=submit]:hover {
 							href="<c:url value='/myBlogs'/>">My Blogs</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/contact'/>" class="nav-link">Messages</a></li>
+							href="<c:url value='/getMessages'/>" class="nav-link">Messages</a></li>
 					</ul>
 				</nav>
 
@@ -287,8 +228,8 @@ input[type=submit]:hover {
 									</div>
 									<div class="col-75">
 										<form:textarea path="articleContent" id="articleContent"
-																		placeholder="Article Content" cols="30" rows="7"
-																		class="form-control" />
+											placeholder="Article Content" cols="30" rows="7"
+											class="form-control" />
 									</div>
 								</div>
 								<div class="row">
@@ -296,8 +237,9 @@ input[type=submit]:hover {
 										<label for="lname">File</label>
 									</div>
 									<div class="col-75">
-										
-										 <input type="file" name="fileUpload" size="50" placeholder="Select a file"/>
+
+										<input type="file" name="fileUpload" size="50"
+											placeholder="Select a file" />
 									</div>
 								</div>
 								<div class="row">

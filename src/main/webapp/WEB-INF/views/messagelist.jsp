@@ -3,7 +3,6 @@
 <%@ page isELIgnored="false"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-
 <!DOCTYPE html>
 <html lang="en-US"
 	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
@@ -14,10 +13,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="shortcut icon"
-	href="http://swativerma.com/wp-content/themes/swati/img/logo.svg"
-	type="image/x-icon" />
-
 <link
 	href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900'
 	rel='stylesheet' type='text/css'>
@@ -26,29 +21,22 @@
 	rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
 	rel="stylesheet">
-<link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/css/font-awesome.min.css">
-<link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/css/lightbox.css">
+
+<link rel="stylesheet" href="./static/css/font-awesome.min.css">
+<link rel="stylesheet" href="./static/css/lightbox.css">
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	crossorigin="anonymous"></script>
-<script
-	src="http://swativerma.com/wp-content/themes/swati/js/modernizr.js"></script>
+<script type="text/javascript" src="./static/js/modernizr.js"></script>
+<script type="text/javascript" src="./static/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="./static/js/ScrollToPlugin.min.js"></script>
+<script type="text/javascript" src="./static/js/ScrollMagic.js"></script>
 <script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/TweenMax.min.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/ScrollToPlugin.min.js"></script>
-<script
-	src="http://swativerma.com/wp-content/themes/swati/js/ScrollMagic.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/plugins/animation.gsap.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/lightbox.js"></script>
+	src="./static/js/plugins/animation.gsap.js"></script>
+<script type="text/javascript" src="./static/js/lightbox.js"></script>
 
-<title>Get inspired by listening &#8211; the perfect app for a
-	hectic life</title>
+<title>SURPRISE! I am launching my next Pro Makeup Course!</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="http://swativerma.com/xmlrpc.php" />
 
@@ -63,66 +51,44 @@
 <link rel="alternate" type="application/rss+xml"
 	title="Swati Verma &raquo; Comments Feed"
 	href="http://swativerma.com/comments/feed/" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/swativerma.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.10"}};
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
-<style type="text/css">
-img.wp-smiley, img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
+
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css"
+	rel="stylesheet" type="text/css">
+<script type="text/javascript"
+	src="./static/js/smpSortable/smpSortableTable.js"></script>
+
+<link rel="stylesheet"
+	href="./static/css/smpSortable/smpSortableTable.css">
+<style>
+#message-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#message-table td, #message-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#message-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#message-table tr:hover {background-color: #ddd;}
+
+#message-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f1bfc1;
+  color: white;
 }
 </style>
-<link rel='stylesheet' id='fts-feeds-css'
-	href='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/css/styles.css?ver=4.9.10'
-	type='text/css' media='all' />
-<link rel='stylesheet' id='fts-popup-css'
-	href='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/css/magnific-popup.css?ver=4.9.10'
-	type='text/css' media='all' />
-<script type='text/javascript'
-	src='http://swativerma.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
-var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
-/* ]]> */
-</script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/admin/js/admin.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/masonry.pkgd.min.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/imagesloaded.pkgd.min.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/fts-global.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/magnific-popup.js?ver=4.9.10'></script>
-<link rel='https://api.w.org/' href='http://swativerma.com/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD"
-	href="http://swativerma.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml"
-	href="http://swativerma.com/wp-includes/wlwmanifest.xml" />
-<link rel='prev' title='Swati Verma Masterclass the 22:nd of October'
-	href='http://swativerma.com/swati-verma-masterclass-new-delhi/' />
-<link rel='next'
-	title='SURPRISE! I am launching my next Pro Makeup Course!'
-	href='http://swativerma.com/swati-verma-makeup-course/' />
-<link rel="canonical"
-	href="http://swativerma.com/audiobooks-inspiration/" />
-<link rel='shortlink' href='http://swativerma.com/?p=1175' />
-<link rel="alternate" type="application/json+oembed"
-	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Faudiobooks-inspiration%2F" />
-<link rel="alternate" type="text/xml+oembed"
-	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Faudiobooks-inspiration%2F&#038;format=xml" />
 <style type="text/css">
 .recentcomments a {
 	display: inline !important;
@@ -130,15 +96,10 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 	margin: 0 !important;
 }
 </style>
-
-
-
-
-
 </head>
 
 <body
-	class="wordpress ltr en_US child-theme y2019 m08 d16 h19 friday logged-out singular singular-post singular-post-1175 single-1175 chrome primary-active secondary-inactive subsidiary-inactive">
+	class="wordpress ltr en_US child-theme y2019 m08 d13 h19 tuesday logged-out singular singular-post singular-post-1263 single-1263 chrome primary-active secondary-inactive subsidiary-inactive">
 
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -178,72 +139,65 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 
 					<ul class="navigation">
-
-						<li id="menu-item-32"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a
-							href="http://swativerma.com/bio/">Bio</a></li>
-						<li id="menu-item-27"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a
-							href="http://swativerma.com/portfolio/">Portfolio</a></li>
-						<li id="menu-item-28"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a
-							href="http://swativerma.com/services/">Services</a></li>
-						<li id="menu-item-551"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a
-							href="http://swativerma.com/courses/">COURSES</a></li>
-						<li id="menu-item-24"
-							class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-24"><a
-							href="http://swativerma.com/blog/">Makeup blog</a></li>
-						<li id="menu-item-25"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a
-							href="http://swativerma.com/contact/">Contact</a></li>
-						<li id="menu-item-1734"
-							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1734"><a
-							href="https://swativerma.serviceform.com/serviceform/14663">Book
-								now</a></li>
-
-
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/adminHome'/>">Home</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="http://swativerma.com/services/">Gallary</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/writeBlog'/>">Write Blog</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/myBlogs'/>">My Blogs</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/getMessages'/>" class="nav-link">Messages</a></li>
 					</ul>
 				</nav>
 
 			</header>
 
 			<div class="init text_page" id="">
-
 				<div id="pagepost" class="hfeed">
+				<div class="entry-content">
+				<h2>Messages</h2>
+					<div class="container">
 
+						<table id="message-table">
+							<thead>
+								<tr>
+									<th>ID</h>
+									<th>Name</th>
+									<th>Email</th>
+									<th>Subject</th>
+									<th>Message</th>
+								</tr>
+							</thead>
+							<tbody data-position="0" data-jump="2">
+								<c:forEach var="msg" items="${msgList}">
+									<tr>
+										<td>${msg.id}</td>
+										<td>${msg.userName}</td>
+										<td>${msg.email}</td>
+										<td>${msg.subject}</td>
+										<td>${msg.message}</td>
+									</tr>
 
-					<div id="post-1175"
-						class="hentry post publish post-1 odd author-swatieditor category-personal category-sponsored post_tag-audiobooks post_tag-personal-development post_tag-swati-verma post_tag-travel">
+								</c:forEach>
+							</tbody>
+						</table>
 
-						<h2>${makeupBlog.title}</h2>
-						<!--<p class="thedate"><strong>2018-04-26</strong></p>-->
-						<div class="entry-content">
-							<p>
-								<img class="aligncenter size-full wp-image-1177"
-									src="getblogPhoto/<c:out value='${makeupBlog.id}'/>"
-									sizes="(max-width: 1000px) 100vw, 1000px" />
-							</p>
-							<p>Hello my lovelies!</p>
-							<p>${makeupBlog.articleContent}</p>
-							<p>
-								
-							</p>
-							
-						</div>
-						<!-- .entry-content -->
+						<button class="less">
+							Back
+						</button>
+						<button class="more">
+							Forward
+						</button>
 
-
-
+</div>
 					</div>
-					<!-- .hentry -->
-
-
-
-
-
-
-
 				</div>
 				<!-- .content .hfeed -->
 
@@ -252,7 +206,7 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 				<footer id="contact">
 					<div class="fcont_wrap">
 						<ul class="footer_col" style="text-align: left;">
-							<li><p>Â© Swati Verma 2019</p></li>
+							<li><p>© Swati Verma 2019</p></li>
 							<li><p>
 									<strong>My aim is to make every woman feel truly
 										HEAVENLY!</strong>
@@ -371,6 +325,45 @@ $(window).resize(function () {
 //Call doneResizing on instantiation
 doneResizing();
 
+var total    = $('tbody > tr').length;
+var position = $('tbody').data('position');
+var jump     = $('tbody').data('jump');
+var paginate = function(position, jump) {
+    /* Show Default Items */
+    $('tbody > tr').each(function() {
+        /* Variable Defaults */
+        var index = $(this).index();
+
+        /* Condition */
+        var condition = (index >= position) && (index < position + jump);
+
+        /* Hide/Show Item */
+        $(this).toggle(condition);
+
+        /* Set Disabled Status */
+        $('.less').prop('disabled', (position - jump) < 0);
+        $('.more').prop('disabled', (position + jump) >= total);
+    });
+};
+
+/* Set Default Text */
+$('.count').text(jump);
+
+/* Init Paginate */
+paginate(position, jump);
+
+/* Bind Click Events to "Less" and "More" Button */
+$('.less, .more').on('click', function() {
+    /* Decrease/Increase Position */
+    position = $(this).hasClass('less') ? $('tbody').data('position') - jump : $('tbody').data('position') + jump;
+
+    /* Paginate */
+    paginate(position, jump);
+
+    /* Update Position */
+    $('tbody').data('position', position);
+});
+
 </script>
 
 
@@ -384,7 +377,7 @@ doneResizing();
 </html>
 
 
-<!-- Dynamic page generated in 0.212 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2019-08-16 19:53:35 -->
+<!-- Dynamic page generated in 0.612 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-08-13 19:37:18 -->
 
 <!-- super cache -->
