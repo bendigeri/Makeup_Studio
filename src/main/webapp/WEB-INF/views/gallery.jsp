@@ -183,62 +183,6 @@ img.wp-smiley, img.emoji {
 							</li>
 
 							</a>
-
-							<a
-								href="http://swativerma.com/wp-content/uploads/2017/05/IMG_0013.jpg"
-								data-lightbox="services-set" data-title="">
-
-								<li><span
-									style="background-image: url(http://swativerma.com/wp-content/uploads/2017/05/IMG_0013.jpg);"></span>
-							</li>
-
-							</a>
-
-
-							<a
-								href="http://swativerma.com/wp-content/uploads/2017/05/IMG_0033.jpg"
-								data-lightbox="services-set" data-title="">
-
-								<li><span
-									style="background-image: url(http://swativerma.com/wp-content/uploads/2017/05/IMG_0033.jpg);"></span>
-							</li>
-
-							</a>
-
-
-							<a
-								href="http://swativerma.com/wp-content/uploads/2017/05/IMG_0034.jpg"
-								data-lightbox="services-set" data-title="">
-
-								<li><span
-									style="background-image: url(http://swativerma.com/wp-content/uploads/2017/05/IMG_0034.jpg);"></span>
-							</li>
-
-							</a>
-
-
-							<a
-								href="http://swativerma.com/wp-content/uploads/2017/05/IMG_0041.jpg"
-								data-lightbox="services-set" data-title="">
-
-								<li><span
-									style="background-image: url(http://swativerma.com/wp-content/uploads/2017/05/IMG_0041.jpg);"></span>
-							</li>
-
-							</a>
-
-
-							<a
-								href="http://swativerma.com/wp-content/uploads/2017/05/IMG_0065.jpg"
-								data-lightbox="services-set" data-title="">
-
-								<li><span
-									style="background-image: url(http://swativerma.com/wp-content/uploads/2017/05/IMG_0065.jpg);"></span>
-							</li>
-
-							</a>
-
-
 						</ul>
 </c:forEach>
 					</div>

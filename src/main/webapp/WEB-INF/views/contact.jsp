@@ -184,7 +184,7 @@ img.wp-smiley, img.emoji {
 														</div>
 													</div>
 
-													<%-- <div id="nf-field-5-container"
+													<div id="nf-field-5-container"
 													class="nf-field-container phone-container  label-hidden  textbox-container">
 													<div class="nf-before-field">
 													</div>
@@ -194,14 +194,12 @@ img.wp-smiley, img.emoji {
 															data-field-id="5">
 															<div class="nf-field-element">
 																<div class="nf-field-element">
-																	 <form:input type="text" path="userName" id="userName" placeholder="Phone" class="ninja-forms-field nf-element"/>
+																	 <form:input type="text" path="phoneNo" id="phoneNo" placeholder="Phone" class="ninja-forms-field nf-element"/>
 															</div>
 															</div>
 														</div>
 													</div>
-												</div> --%>
-
-
+												</div>
 
 													<div id="nf-field-2-container"
 														class="nf-field-container email-container  label-hidden ">

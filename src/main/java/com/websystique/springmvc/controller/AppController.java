@@ -440,20 +440,44 @@ public class AppController {
     
     @RequestMapping(value = {"/contactus" }, method = RequestMethod.GET)
    	public String getContactMeForm(ModelMap model) {
-
+    	model.addAttribute("userMessages", new UserMessages());
    		return "libro/contact";
    	}
     
+	@RequestMapping(value = "/contactus", method = RequestMethod.POST)
+	public String sendUserMessage(@Valid UserMessages userMessages, BindingResult result,
+			ModelMap model) {
+		userMessagesService.save(userMessages);
+		model.addAttribute("userMessages", new UserMessages());
+		return "libro/contact";
+	}
+    
     @RequestMapping(value = {"/makeover-gallery" }, method = RequestMethod.GET)
-   	public String getgallery(ModelMap model) {
-
-   		return "libro/gallery";
+   	public ModelAndView getgallery(ModelAndView model) {
+    	List<Gallery> galleryPhotos= galleryService.getGalleryImages();
+    	model.addObject("galleryPhotos", galleryPhotos);
+    	model.setViewName("libro/gallery");
+		return model;
    	}
     
     @RequestMapping(value = {"/blogs" }, method = RequestMethod.GET)
-   	public String getblogs(ModelMap model) {
+   	public ModelAndView getblogs(ModelAndView model) {
 
-   		return "libro/blogs";
+    	List<MakeupBlog> blogs= makeupBlogService.blogList();
+		System.out.println(blogs);
+		model.addObject("blogs", blogs);
+		model.setViewName("libro/blogs");
+		return model;
+    	
    	}
     
+    @RequestMapping(value = {"/readBlog/{id}"}, method = RequestMethod.GET)
+  	public ModelAndView singleBlogDetail(ModelAndView model,@PathVariable("id") int id) {
+  		
+  		MakeupBlog makeupBlog= makeupBlogService.getBlogById(id);
+  		System.out.println(makeupBlog);
+  		model.addObject("makeupBlog", makeupBlog);
+  		model.setViewName("libro/blog-detail");
+  		return model;
+  	}
 }

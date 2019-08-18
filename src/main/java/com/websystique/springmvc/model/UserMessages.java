@@ -38,6 +38,10 @@ public class UserMessages implements Serializable{
 	@NotEmpty
 	@Column(name="MESSAGE", nullable=false)
 	private String message;
+	
+	@NotEmpty
+	@Column(name="PHONE_NO", nullable=false)
+	private String phoneNo;
 
 	public Integer getId() {
 		return id;
@@ -79,7 +83,14 @@ public class UserMessages implements Serializable{
 		this.message = message;
 	}
 	
-	
+	public String getPhoneNo() {
+		return phoneNo;
+	}
+
+	public void setPhoneNo(String phoneNo) {
+		this.phoneNo = phoneNo;
+	}
+
 	@Override
     public String toString() 
     { 

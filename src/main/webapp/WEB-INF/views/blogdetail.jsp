@@ -3,7 +3,6 @@
 <%@ page isELIgnored="false"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-
 <!DOCTYPE html>
 <html lang="en-US"
 	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
@@ -14,9 +13,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="shortcut icon"
-	href="http://swativerma.com/wp-content/themes/swati/img/logo.svg"
-	type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link
 	href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900'
@@ -26,48 +24,23 @@
 	rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
 	rel="stylesheet">
-<link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/css/font-awesome.min.css">
-<link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/css/lightbox.css">
+
+
+<link rel="stylesheet" href="./static/css/style.css" type='text/css'>
+<link rel="stylesheet" href="./static/css/font-awesome.min.css">
+<link rel="stylesheet" href="./static/css/lightbox.css">
+
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	crossorigin="anonymous"></script>
-<script
-	src="http://swativerma.com/wp-content/themes/swati/js/modernizr.js"></script>
+<script type="text/javascript" src="./static/js/modernizr.js"></script>
+<script type="text/javascript" src="./static/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="./static/js/ScrollToPlugin.min.js"></script>
+<script type="text/javascript" src="./static/js/ScrollMagic.js"></script>
 <script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/TweenMax.min.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/ScrollToPlugin.min.js"></script>
-<script
-	src="http://swativerma.com/wp-content/themes/swati/js/ScrollMagic.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/plugins/animation.gsap.js"></script>
-<script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/lightbox.js"></script>
-
-<title>Get inspired by listening &#8211; the perfect app for a
-	hectic life</title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="http://swativerma.com/xmlrpc.php" />
-
-
-<style type="text/css">
-</style>
-<meta name="generator" content="WordPress 4.9.10" />
-<meta name="template" content="Hybrid 1.2" />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml"
-	title="Swati Verma &raquo; Feed" href="http://swativerma.com/feed/" />
-<link rel="alternate" type="application/rss+xml"
-	title="Swati Verma &raquo; Comments Feed"
-	href="http://swativerma.com/comments/feed/" />
-<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/swativerma.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.10"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-<style type="text/css">
+	src="./static/js/plugins/animation.gsap.js"></script>
+<script type="text/javascript" src="./static/js/lightbox.js"></script><style type="text/css">
 img.wp-smiley, img.emoji {
 	display: inline !important;
 	border: none !important;
@@ -200,7 +173,7 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 
 					<div id="post-1175"
 						class="hentry post publish post-1 odd author-swatieditor category-personal category-sponsored post_tag-audiobooks post_tag-personal-development post_tag-swati-verma post_tag-travel">
-
+						<h2>${pageContext.request.contextPath}</h2>
 						<h2>${makeupBlog.title}</h2>
 						<!--<p class="thedate"><strong>2018-04-26</strong></p>-->
 						<div class="entry-content">

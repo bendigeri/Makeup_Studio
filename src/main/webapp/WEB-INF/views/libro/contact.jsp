@@ -108,23 +108,29 @@
           </div>
           <div class="row block-9">
             <div class="col-md-12 mb-5">
-              <form action="#">
+              <c:url var="sendMessage" value="/contactus" />
+				<form:form action="${sendMessage}" method="post"
+												modelAttribute="userMessages">
+												<form:input type="hidden" path="id" id="id" />
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name">
+                  <form:input type="text" path="userName" id="userName" placeholder="Your Name" class="form-control" />
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Email">
+                  <form:input type="text" path="phoneNo" id="phoneNo" placeholder="Your Phone Number" class="form-control" />
+                </div>
+                 <div class="form-group">
+                  <form:input type="text" path="email" id="email" placeholder="Your Email" class="form-control" />
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Subject">
+                  <form:input type="text" path="subject" id="subject" placeholder="Subject" class="form-control" />
                 </div>
                 <div class="form-group">
-                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                  <form:textarea path="message" id="message" placeholder="Message" cols="30" rows="7" class="form-control" />
                 </div>
                 <div class="form-group">
                   <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
                 </div>
-              </form>
+              </form:form>
             
             </div>
             <div class="col-md-12" id="map"></div>

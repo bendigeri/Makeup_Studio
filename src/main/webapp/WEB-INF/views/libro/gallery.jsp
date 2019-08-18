@@ -113,102 +113,18 @@
       	</div>
       	<div class="page-container-no-gutters float-right">
       		<div class="row no-gutters">
+      		<c:forEach var="galleryPhoto" items="${galleryPhotos}">
       			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_1.jpg);">
+      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url('getGelleryPhoto/<c:out value='${galleryPhoto.id}'/>');">
 	      				<div class="text p-4">
 	      					<span>Model</span>
 	      					<h3>2018 Super Asia Model</h3>
 	      				</div>
 	      			</a>
       			</div>
-      			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_2.jpg);">
-	      				<div class="text p-4">
-	      					<span>Model</span>
-	      					<h3>2018 Super Asia Model</h3>
-	      				</div>
-	      			</a>
-      			</div>
-      			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_3.jpg);">
-	      				<div class="text p-4">
-	      					<span>Model</span>
-	      					<h3>2018 Super Asia Model</h3>
-	      				</div>
-	      			</a>
-      			</div>
-      			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_4.jpg);">
-	      				<div class="text p-4">
-	      					<span>Model</span>
-	      					<h3>2018 Super Asia Model</h3>
-	      				</div>
-	      			</a>
-      			</div>
-      			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_5.jpg);">
-	      				<div class="text p-4">
-	      					<span>Model</span>
-	      					<h3>2018 Super Asia Model</h3>
-	      				</div>
-	      			</a>
-      			</div>
-      			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_6.jpg);">
-	      				<div class="text p-4">
-	      					<span>Model</span>
-	      					<h3>2018 Super Asia Model</h3>
-	      				</div>
-	      			</a>
-      			</div>
-      			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_7.jpg);">
-	      				<div class="text p-4">
-	      					<span>Model</span>
-	      					<h3>2018 Super Asia Model</h3>
-	      				</div>
-	      			</a>
-      			</div>
-      			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_8.jpg);">
-	      				<div class="text p-4">
-	      					<span>Model</span>
-	      					<h3>2018 Super Asia Model</h3>
-	      				</div>
-	      			</a>
-      			</div>
-      			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_9.jpg);">
-	      				<div class="text p-4">
-	      					<span>Model</span>
-	      					<h3>2018 Super Asia Model</h3>
-	      				</div>
-	      			</a>
-      			</div>
-      			<div class="col-md-6 blog-entry-3 ftco-animate">
-      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-end" style="background-image: url(static/libro/images/image_10.jpg);">
-	      				<div class="text p-4">
-	      					<span>Model</span>
-	      					<h3>2018 Super Asia Model</h3>
-	      				</div>
-	      			</a>
-      			</div>
+      			</c:forEach>
       		</div>
-      		<div class="row mt-5">
-	          <div class="col text-center">
-	            <div class="block-27">
-	              <ul>
-	                <li><a href="#">&lt;</a></li>
-	                <li class="active"><span>1</span></li>
-	                <li><a href="#">2</a></li>
-	                <li><a href="#">3</a></li>
-	                <li><a href="#">4</a></li>
-	                <li><a href="#">5</a></li>
-	                <li><a href="#">&gt;</a></li>
-	              </ul>
-	            </div>
-	          </div>
-	        </div>
+      	
       	</div><!-- end: page-container-->
       </section>
     	
