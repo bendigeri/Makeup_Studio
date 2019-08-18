@@ -2,6 +2,8 @@ package com.websystique.springmvc.controller;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
@@ -91,12 +93,26 @@ public class AppController {
 		return "libro/index";
 	}
 	@RequestMapping(value = {"/home"}, method = RequestMethod.GET)
-	public String homePage(ModelMap model) {
+	public ModelAndView homePage(ModelAndView model) {
 
-		List<User> users = userService.findAllUsers();
-		model.addAttribute("users", users);
-		model.addAttribute("loggedinuser", getPrincipal());
-		return "home";
+		List<Gallery> galleryPhotos= galleryService.getGalleryImages();
+		List<MakeupBlog> blogs= makeupBlogService.blogList();
+		
+		MakeupBlog makeupBlog = Collections.max(blogs, new Comparator<MakeupBlog>() {
+
+			@Override
+			public int compare(MakeupBlog o1, MakeupBlog o2) {
+				// TODO Auto-generated method stub
+				return Integer.compare(o1.getId(), o2.getId());
+			}
+		});
+
+		
+		
+    	model.addObject("galleryPhotos", galleryPhotos);
+    	model.addObject("makeupBlog", makeupBlog);
+    	model.setViewName("home");
+		return model;
 	}
 	
 	/**
@@ -414,5 +430,30 @@ public class AppController {
   
         return "registrationsuccess";
     }  
+    
+    
+    @RequestMapping(value = {"/aboutus" }, method = RequestMethod.GET)
+	public String about(ModelMap model) {
+
+		return "libro/aboutme";
+	}
+    
+    @RequestMapping(value = {"/contactus" }, method = RequestMethod.GET)
+   	public String getContactMeForm(ModelMap model) {
+
+   		return "libro/contact";
+   	}
+    
+    @RequestMapping(value = {"/makeover-gallery" }, method = RequestMethod.GET)
+   	public String getgallery(ModelMap model) {
+
+   		return "libro/gallery";
+   	}
+    
+    @RequestMapping(value = {"/blogs" }, method = RequestMethod.GET)
+   	public String getblogs(ModelMap model) {
+
+   		return "libro/blogs";
+   	}
     
 }

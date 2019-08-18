@@ -16,21 +16,21 @@
     <link rel="stylesheet" href="static/libro/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="static/libro/css/animate.css">
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="static/libro/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/libro/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/libro/css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="static/libro/css/aos.css">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="static/libro/css/ionicons.min.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="static/libro/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="static/libro/css/jquery.timepicker.css">
 
     
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="static/libro/css/flaticon.css">
+    <link rel="stylesheet" href="static/libro/css/icomoon.css">
+    <link rel="stylesheet" href="static/libro/css/style.css">
   </head>
   <body>
 
@@ -41,12 +41,12 @@
           <div class="row d-flex justify-content-end">
             <div class="col-md-12 px-5">
               <ul class="mb-5">
-                <li class="active"><a href="index.html"><span>Home</span></a></li>
-                <li><a href="fashion.html"><span>Fashion</span></a></li>
-                <li><a href="model.html"><span>Model</span></a></li>
-                <li><a href="travel.html"><span>Travel</span></a></li>
-                <li><a href="about.html"><span>About us</span></a></li>
-                <li><a href="contact.html"><span>Contact</span></a></li>
+               <li class="active"><a href="<c:url value='/'/>"><span>Home</span></a></li>
+                <li><a href="<c:url value='/blogs'/>"><span>Blog</span></a></li>
+                <li><a href="<c:url value='/makeover-gallery'/>"><span>Gallery</span></a></li>
+                <li><a href="<c:url value='/travel'/>"><span>Travel</span></a></li>
+                <li><a href="<c:url value='/aboutus'/>"><span>About us</span></a></li>
+                <li><a href="<c:url value='/contactus'/>"><span>Contact</span></a></li>
               </ul>
             </div>
             <div class="col px-5 copyright">
@@ -74,7 +74,7 @@
       <section class="ftco-fixed clearfix">
       	<div class="image js-fullheight float-left">
       		<div class="home-slider owl-carousel js-fullheight">
-		        <div class="slider-item js-fullheight" style="background-image: url('images/bg_1.jpg');">
+		        <div class="slider-item js-fullheight" style="background-image: url('static/libro/images/bg_1.jpg');">
 		          <div class="overlay"></div>
 		          <div class="container">
 		            <div class="row slider-text align-items-end" data-scrollax-parent="true">
@@ -90,7 +90,7 @@
       	<div class="page-container float-right">
       		<div class="row about-section">
       			<div class="col-md-6 ftco-animate">
-      				<img src="images/about.jpg" class="img-fluid" alt="">
+      				<img src="static/libro/images/about.jpg" class="img-fluid" alt="">
       			</div>
       			<div class="col-md-6 ftco-animate">
       				<h2 class="mb-4">Libro is a Magazine website</h2>
@@ -117,23 +117,23 @@
   	</div>
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="static/libro/js/jquery.min.js"></script>
+  <script src="static/libro/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="static/libro/js/popper.min.js"></script>
+  <script src="static/libro/js/bootstrap.min.js"></script>
+  <script src="static/libro/js/jquery.easing.1.3.js"></script>
+  <script src="static/libro/js/jquery.waypoints.min.js"></script>
+  <script src="static/libro/js/jquery.stellar.min.js"></script>
+  <script src="static/libro/js/owl.carousel.min.js"></script>
+  <script src="static/libro/js/jquery.magnific-popup.min.js"></script>
+  <script src="static/libro/js/aos.js"></script>
+  <script src="static/libro/js/jquery.animateNumber.min.js"></script>
+  <script src="static/libro/js/scrollax.min.js"></script>
+  <script src="static/libro/js/bootstrap-datepicker.js"></script>
+  <script src="static/libro/js/jquery.timepicker.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+  <script src="static/libro/js/google-map.js"></script>
+  <script src="static/libro/js/main.js"></script>
     
   </body>
 </html>

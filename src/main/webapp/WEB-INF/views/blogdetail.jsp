@@ -178,31 +178,16 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 
 					<ul class="navigation">
-
-						<li id="menu-item-32"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a
-							href="http://swativerma.com/bio/">Bio</a></li>
-						<li id="menu-item-27"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a
-							href="http://swativerma.com/portfolio/">Portfolio</a></li>
-						<li id="menu-item-28"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a
-							href="http://swativerma.com/services/">Services</a></li>
-						<li id="menu-item-551"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a
-							href="http://swativerma.com/courses/">COURSES</a></li>
-						<li id="menu-item-24"
-							class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-24"><a
-							href="http://swativerma.com/blog/">Makeup blog</a></li>
-						<li id="menu-item-25"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a
-							href="http://swativerma.com/contact/">Contact</a></li>
-						<li id="menu-item-1734"
-							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1734"><a
-							href="https://swativerma.serviceform.com/serviceform/14663">Book
-								now</a></li>
-
-
+						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/home'/>">Home</a></li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/about'/>">Know Me</a></li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/gallery'/>">Gallary</a></li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/myblog'/>">My Blog</a></li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
 					</ul>
 				</nav>
 

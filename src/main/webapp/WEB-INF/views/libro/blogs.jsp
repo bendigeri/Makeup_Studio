@@ -74,7 +74,7 @@
       <section class="ftco-fixed clearfix">
       	<div class="image js-fullheight float-left">
       		<div class="home-slider owl-carousel js-fullheight">
-		        <div class="slider-item js-fullheight" style="background-image: url('static/images/swati.jpg');">
+		        <div class="slider-item js-fullheight" style="background-image: url('static/libro/images/bg_1.jpg');">
 		          <div class="overlay"></div>
 		          <div class="container">
 		            <div class="row slider-text align-items-end" data-scrollax-parent="true">
@@ -86,7 +86,7 @@
 		          </div>
 		        </div>
 
-		        <div class="slider-item js-fullheight" style="background-image: url('static/images/swati-verma-storytel.jpg');">
+		        <div class="slider-item js-fullheight" style="background-image: url('static/libro/images/bg_2.jpg');">
 		          <div class="overlay"></div>
 		          <div class="container">
 		            <div class="row slider-text align-items-end" data-scrollax-parent="true">
@@ -99,116 +99,132 @@
 		        </div>
 		      </div>
       	</div>
+
       	<div class="page-container float-right">
       		<div class="row">
-      			<div class="col-md-6">
-      				<div class="blog-entry ftco-animate">
-                <a href="blog-single.html" class="blog-image">
-                	<img src="static/libro/images/image_1.jpg" class="img-fluid" alt="">
-                </a>
-                <div class="text py-4">
-                  <div class="meta">
-                    <div><a href="#">July 29, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                  </div>
-                  <h3 class="heading"><a href="#">Life looks happier</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-              <div class="blog-entry ftco-animate">
-                <a href="blog-single.html" class="blog-image">
-                	<img src="static/libro/images/image_2.jpg" class="img-fluid" alt="">
-                </a>
-                <div class="text py-4">
-                  <div class="meta">
-                    <div><a href="#">July 29, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                  </div>
-                  <h3 class="heading"><a href="#">Life looks happier</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-              <div class="blog-entry ftco-animate">
-                <a href="blog-single.html" class="blog-image">
-                	<img src="static/libro/images/image_3.jpg" class="img-fluid" alt="">
-                </a>
-                <div class="text py-4">
-                  <div class="meta">
-                    <div><a href="#">July 29, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                  </div>
-                  <h3 class="heading"><a href="#">Life looks happier</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-							<div class="blog-entry ftco-animate">
-                <a href="blog-single.html" class="blog-image">
-                	<img src="static/libro/images/image_4.jpg" class="img-fluid" alt="">
-                </a>
-                <div class="text py-4">
-                  <div class="meta">
-                    <div><a href="#">July 29, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                  </div>
-                  <h3 class="heading"><a href="#">Life looks happier</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-      			</div>
+      			<div class="col-md-12">
+	      			<div class="blog-entry-2 ftco-animate">
+	      				<a href="https://vimeo.com/45830194" class="blog-img popup-vimeo d-flex justify-content-center align-items-center" style="background-image: url(static/libro/images/image_1.jpg);">
+	      					<div class="icon d-flex justify-content-center align-items-center">
+	      						<span class="icon-play"></span>
+	      					</div>
+	      				</a>
+	      				<div class="d-flex">
+		      				<div class="meta pt-4">
+	                  <p>
+	                  	<span>Admin</span>
+	                  	<span><a href="#">July 29, 2018</a></span>
+	                  	<span><a href="#">Video</a></span>
+	                  	<span><a href="#">12 Comments</a></span>
+	                  </p>
+	                </div>
+		      				<div class="text p-5">
+		      					<h3 class="mb-4">Watch video tutorial on how to make do photoshop edting</h3>
+		      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+		      					<p class="mt-5"><a href="blog-single.html" class="btn btn-primary">Read more</a></p>
+		      				</div>
+	      				</div>
+	      			</div>
 
-      			<div class="col-md-6">
-      				<div class="blog-entry ftco-animate">
-                <a href="blog-single.html" class="blog-image">
-                	<img src="static/libro/images/image_5.jpg" class="img-fluid" alt="">
-                </a>
-                <div class="text py-4">
-                  <div class="meta">
-                    <div><a href="#">July 29, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                  </div>
-                  <h3 class="heading"><a href="#">Life looks happier</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-              <div class="blog-entry ftco-animate">
-                <a href="blog-single.html" class="blog-image">
-                	<img src="static/libro/images/image_6.jpg" class="img-fluid" alt="">
-                </a>
-                <div class="text py-4">
-                  <div class="meta">
-                    <div><a href="#">July 29, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                  </div>
-                  <h3 class="heading"><a href="#">Life looks happier</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-              <div class="blog-entry ftco-animate">
-                <a href="blog-single.html" class="blog-image">
-                	<img src="static/libro/images/image_7.jpg" class="img-fluid" alt="">
-                </a>
-                <div class="text py-4">
-                  <div class="meta">
-                    <div><a href="#">July 29, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                  </div>
-                  <h3 class="heading"><a href="#">Life looks happier</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-              <div class="blog-entry ftco-animate">
-                <a href="blog-single.html" class="blog-image">
-                	<img src="static/libro/images/image_8.jpg" class="img-fluid" alt="">
-                </a>
-                <div class="text py-4">
-                  <div class="meta">
-                    <div><a href="#">July 29, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                  </div>
-                  <h3 class="heading"><a href="#">Life looks happier</a></h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
+	      			<div class="blog-entry-2 ftco-animate">
+	      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-center" style="background-image: url(static/libro/images/image_2.jpg);">
+	      				</a>
+	      				<div class="d-flex">
+		      				<div class="meta pt-4">
+	                  <p>
+	                  	<span>Admin</span>
+	                  	<span><a href="#">July 29, 2018</a></span>
+	                  	<span><a href="#">Fashion</a></span>
+	                  	<span><a href="#">12 Comments</a></span>
+	                  </p>
+	                </div>
+		      				<div class="text p-5">
+		      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
+		      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+		      					<p class="mt-5"><a href="blog-single.html" class="btn btn-primary">Read more</a></p>
+		      				</div>
+	      				</div>
+	      			</div>
+
+	      			<div class="blog-entry-2 ftco-animate">
+	      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-center" style="background-image: url(static/libro/images/image_3.jpg);">
+	      				</a>
+	      				<div class="d-flex">
+		      				<div class="meta pt-4">
+	                  <p>
+	                  	<span>Admin</span>
+	                  	<span><a href="#">July 29, 2018</a></span>
+	                  	<span><a href="#">Lifestyle</a></span>
+	                  	<span><a href="#">12 Comments</a></span>
+	                  </p>
+	                </div>
+		      				<div class="text p-5">
+		      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
+		      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+		      					<p class="mt-5"><a href="blog-single.html" class="btn btn-primary">Read more</a></p>
+		      				</div>
+	      				</div>
+	      			</div>
+
+	      			<div class="blog-entry-2 ftco-animate">
+	      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-center" style="background-image: url(static/libro/images/image_4.jpg);">
+	      				</a>
+	      				<div class="d-flex">
+		      				<div class="meta pt-4">
+	                  <p>
+	                  	<span>Admin</span>
+	                  	<span><a href="#">July 29, 2018</a></span>
+	                  	<span><a href="#">Travel</a></span>
+	                  	<span><a href="#">12 Comments</a></span>
+	                  </p>
+	                </div>
+		      				<div class="text p-5">
+		      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
+		      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+		      					<p class="mt-5"><a href="blog-single.html" class="btn btn-primary">Read more</a></p>
+		      				</div>
+	      				</div>
+	      			</div>
+
+	      			<div class="blog-entry-2 ftco-animate">
+	      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-center" style="background-image: url(static/libro/images/image_5.jpg);">
+	      				</a>
+	      				<div class="d-flex">
+		      				<div class="meta pt-4">
+	                  <p>
+	                  	<span>Admin</span>
+	                  	<span><a href="#">July 29, 2018</a></span>
+	                  	<span><a href="#">Model</a></span>
+	                  	<span><a href="#">12 Comments</a></span>
+	                  </p>
+	                </div>
+		      				<div class="text p-5">
+		      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
+		      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+		      					<p class="mt-5"><a href="blog-single.html" class="btn btn-primary">Read more</a></p>
+		      				</div>
+	      				</div>
+	      			</div>
+
+	      			<div class="blog-entry-2 ftco-animate">
+	      				<a href="blog-single.html" class="blog-img d-flex justify-content-center align-items-center" style="background-image: url(static/libro/images/image_6.jpg);">
+	      				</a>
+	      				<div class="d-flex">
+		      				<div class="meta pt-4">
+	                  <p>
+	                  	<span>Admin</span>
+	                  	<span><a href="#">July 29, 2018</a></span>
+	                  	<span><a href="#">Fashion</a></span>
+	                  	<span><a href="#">12 Comments</a></span>
+	                  </p>
+	                </div>
+		      				<div class="text p-5">
+		      					<h3 class="mb-4">The Big Oxmox advised her not to do so, because there</h3>
+		      					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+		      					<p class="mt-5"><a href="blog-single.html" class="btn btn-primary">Read more</a></p>
+		      				</div>
+	      				</div>
+	      			</div>
       			</div>
       		</div>
       		<div class="row mt-5">
