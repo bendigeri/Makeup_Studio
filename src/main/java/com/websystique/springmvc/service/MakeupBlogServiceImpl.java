@@ -1,5 +1,6 @@
 package com.websystique.springmvc.service;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +35,22 @@ public class MakeupBlogServiceImpl implements MakeupBlogService{
 	@Override
 	public MakeupBlog getBlogById(int id) {
 		return dao.getBlogById(id);
+	}
+	
+	@Override
+	public void updateUser(MakeupBlog blog) {
+		MakeupBlog entity = dao.getBlogById(blog.getId());
+		if(entity!=null){
+			entity.setPostDate(new Date());
+			entity.setPostStatus("draft");
+			entity.setTitle(blog.getTitle());
+			entity.setArticleContent(blog.getArticleContent());
+			if(blog.getFileBytes()!=null) {
+				entity.setFileBytes(blog.getFileBytes());
+			}
+			entity.setShortArticleContent(blog.getArticleContent().substring(0, 30));
+			
+		}
 	}
 
 }

@@ -1,0 +1,7 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/makeover/public_html
+        - /bin/cp -r * $DEPLOYPATH
+        
+        

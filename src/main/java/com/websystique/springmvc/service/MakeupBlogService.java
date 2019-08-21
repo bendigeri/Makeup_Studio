@@ -10,4 +10,5 @@ public interface MakeupBlogService {
 	public List<MakeupBlog> blogList();
 	public byte[] getPhotoById(int id);
 	public MakeupBlog getBlogById(int id);
+	public void updateUser(MakeupBlog blog);
 }

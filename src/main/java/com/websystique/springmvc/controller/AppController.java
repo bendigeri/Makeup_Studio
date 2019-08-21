@@ -87,12 +87,12 @@ public class AppController {
 		return "adminHome";
 	}
 
-	@RequestMapping(value = {"/" }, method = RequestMethod.GET)
+	@RequestMapping(value = {"/index" }, method = RequestMethod.GET)
 	public String home(ModelMap model) {
 
 		return "libro/index";
 	}
-	@RequestMapping(value = {"/home"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/"}, method = RequestMethod.GET)
 	public ModelAndView homePage(ModelAndView model) {
 
 		List<Gallery> galleryPhotos= galleryService.getGalleryImages();
@@ -267,7 +267,7 @@ public class AppController {
 		return "aboutme";
 	}
 	
-	@RequestMapping(value = "/myblog", method = RequestMethod.GET)
+	@RequestMapping(value = {"/myblogs"}, method = RequestMethod.GET)
 	public ModelAndView  myblog(ModelAndView model) {
 		
 		List<MakeupBlog> blogs= makeupBlogService.blogList();
@@ -276,6 +276,17 @@ public class AppController {
 		model.setViewName("myblog");
 		return model;
 	}
+	
+	@RequestMapping(value = {"admin/myblogs"}, method = RequestMethod.GET)
+	public ModelAndView  myblogAdmin(ModelAndView model) {
+		
+		List<MakeupBlog> blogs= makeupBlogService.blogList();
+		System.out.println(blogs);
+		model.addObject("blogs", blogs);
+		model.setViewName("mybloglistAdmin");
+		return model;
+	}
+	
 	
 	/**
 	 * This method handles login GET requests.
@@ -339,17 +350,26 @@ public class AppController {
     public String postBlog(HttpServletRequest request,
             @RequestParam CommonsMultipartFile[] fileUpload,@Valid MakeupBlog makeupBlog, BindingResult result,
 			ModelMap model) throws Exception {
-          
+    	    model.get("edit");  
+    	
+    	    
         if (fileUpload != null && fileUpload.length > 0) {
             for (CommonsMultipartFile aFile : fileUpload){
-                  
-                System.out.println("Saving file: " + aFile.getOriginalFilename());
-                 
-                makeupBlog.setFileBytes(aFile.getBytes());
-                makeupBlog.setPostDate(new Date());
-                makeupBlog.setPostStatus("draft");
-                makeupBlog.setShortArticleContent(makeupBlog.getArticleContent().substring(0, 300));
-                makeupBlogService.save(makeupBlog);               
+                
+            	if(makeupBlog.getId()!=null) {
+            		 makeupBlog.setFileBytes(aFile.getBytes());
+            		makeupBlogService.updateUser(makeupBlog);
+            	
+            	}else {
+            		System.out.println("Saving file: " + aFile.getOriginalFilename());
+                    makeupBlog.setFileBytes(aFile.getBytes());
+                    makeupBlog.setPostDate(new Date());
+                    makeupBlog.setPostStatus("draft");
+                    makeupBlog.setShortArticleContent(makeupBlog.getArticleContent().substring(0, 300));
+                    makeupBlogService.save(makeupBlog); 
+            	}
+            	
+                              
             }
         }
   
@@ -480,4 +500,26 @@ public class AppController {
   		model.setViewName("libro/blog-detail");
   		return model;
   	}
+    
+    @RequestMapping(value = { "/edit-blog-{id}" }, method = RequestMethod.GET)
+	public String editBlog(@PathVariable("id") int id, ModelMap model) {
+		MakeupBlog makeupblog = makeupBlogService.getBlogById(id);
+		model.addAttribute("makeupblog", makeupblog);
+		model.addAttribute("edit", true);
+		model.addAttribute("loggedinuser", getPrincipal());
+		return "writeBlog";
+	}
+    
+    @RequestMapping(value = { "/edit-blog-{ssoId}" }, method = RequestMethod.POST)
+	public String editBlog(@Valid MakeupBlog blog, BindingResult result,
+			ModelMap model, @PathVariable String ssoId) {
+
+		if (result.hasErrors()) {
+			return "writeBlog";
+		}
+		makeupBlogService.updateUser(blog);
+		
+
+		return "admin/myblogs";
+	}
 }

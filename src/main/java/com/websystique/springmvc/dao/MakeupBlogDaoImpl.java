@@ -35,5 +35,7 @@ public class MakeupBlogDaoImpl extends AbstractDao<Integer, MakeupBlog> implemen
 		MakeupBlog makeupBlog= getByKey(id);
 		return makeupBlog;
 	}
+	
+	
 
 }

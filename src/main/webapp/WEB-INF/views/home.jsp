@@ -106,7 +106,7 @@ img.wp-smiley, img.emoji {
 							href="<c:url value='/gallery'/>">Gallary</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/myblog'/>">My Blog</a></li>
+							href="<c:url value='/myblogs'/>">My Blog</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
