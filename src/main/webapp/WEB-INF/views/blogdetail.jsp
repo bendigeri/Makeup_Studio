@@ -7,9 +7,6 @@
 <html lang="en-US"
 	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 <head>
-<link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/style.css"
-	type="text/css" media="all" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,21 +23,21 @@
 	rel="stylesheet">
 
 
-<link rel="stylesheet" href="./static/css/style.css" type='text/css'>
-<link rel="stylesheet" href="./static/css/font-awesome.min.css">
-<link rel="stylesheet" href="./static/css/lightbox.css">
-
+<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/style.css" type='text/css'>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/font-awesome.min.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/lightbox.css">
+<title>${makeupBlog.title}</title>
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	crossorigin="anonymous"></script>
-<script type="text/javascript" src="./static/js/modernizr.js"></script>
-<script type="text/javascript" src="./static/js/TweenMax.min.js"></script>
-<script type="text/javascript" src="./static/js/ScrollToPlugin.min.js"></script>
-<script type="text/javascript" src="./static/js/ScrollMagic.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/modernizr.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/ScrollToPlugin.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/ScrollMagic.js"></script>
 <script type="text/javascript"
-	src="./static/js/plugins/animation.gsap.js"></script>
-<script type="text/javascript" src="./static/js/lightbox.js"></script><style type="text/css">
+	src="${pageContext.request.contextPath}/static/js/plugins/animation.gsap.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/lightbox.js"></script><style type="text/css">
 img.wp-smiley, img.emoji {
 	display: inline !important;
 	border: none !important;
@@ -54,48 +51,18 @@ img.wp-smiley, img.emoji {
 }
 </style>
 <link rel='stylesheet' id='fts-feeds-css'
-	href='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/css/styles.css?ver=4.9.10'
-	type='text/css' media='all' />
+	href='${pageContext.request.contextPath}/static/css/styles_4.9.10.css' type='text/css' media='all' />
 <link rel='stylesheet' id='fts-popup-css'
-	href='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/css/magnific-popup.css?ver=4.9.10'
-	type='text/css' media='all' />
+	href='${pageContext.request.contextPath}/static/css/magnific-popup.css?ver=4.9.10' type='text/css'
+	media='all' />
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/jquery.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/admin.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/masonry.pkgd.min.js'></script>
 <script type='text/javascript'
-	src='http://swativerma.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
-var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
-/* ]]> */
-</script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/admin/js/admin.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/masonry.pkgd.min.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/imagesloaded.pkgd.min.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/fts-global.js?ver=4.9.10'></script>
-<script type='text/javascript'
-	src='http://swativerma.com/wp-content/plugins/feed-them-social/feeds/js/magnific-popup.js?ver=4.9.10'></script>
-<link rel='https://api.w.org/' href='http://swativerma.com/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD"
-	href="http://swativerma.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml"
-	href="http://swativerma.com/wp-includes/wlwmanifest.xml" />
-<link rel='prev' title='Swati Verma Masterclass the 22:nd of October'
-	href='http://swativerma.com/swati-verma-masterclass-new-delhi/' />
-<link rel='next'
-	title='SURPRISE! I am launching my next Pro Makeup Course!'
-	href='http://swativerma.com/swati-verma-makeup-course/' />
-<link rel="canonical"
-	href="http://swativerma.com/audiobooks-inspiration/" />
-<link rel='shortlink' href='http://swativerma.com/?p=1175' />
-<link rel="alternate" type="application/json+oembed"
-	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Faudiobooks-inspiration%2F" />
-<link rel="alternate" type="text/xml+oembed"
-	href="http://swativerma.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fswativerma.com%2Faudiobooks-inspiration%2F&#038;format=xml" />
+	src='${pageContext.request.contextPath}/static/js/imagesloaded.pkgd.min.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/fts-global.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/magnific-popup.js'></script>
 <style type="text/css">
 .recentcomments a {
 	display: inline !important;
@@ -103,56 +70,24 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 	margin: 0 !important;
 }
 </style>
-
-
-
-
-
 </head>
 
 <body
 	class="wordpress ltr en_US child-theme y2019 m08 d16 h19 friday logged-out singular singular-post singular-post-1175 single-1175 chrome primary-active secondary-inactive subsidiary-inactive">
 
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-101676500-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-
 	<div id="body-container">
-
-
-
 		<div id="container">
-
-
-
 			<header>
-
 				<nav class="desktop_nav">
-
 					<div class="main_logo">
 						<a href="http://swativerma.com/"><img
 							src="http://swativerma.com/wp-content/themes/swati/img/logo_symbolonly.svg"></a>
 					</div>
-
-
-					<style type="text/css">
-</style>
-
-
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 
 					<ul class="navigation">
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/home'/>">Home</a></li>
+							href="<c:url value='/'/>">Home</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/about'/>">Know Me</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
@@ -173,7 +108,6 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 
 					<div id="post-1175"
 						class="hentry post publish post-1 odd author-swatieditor category-personal category-sponsored post_tag-audiobooks post_tag-personal-development post_tag-swati-verma post_tag-travel">
-						<h2>${pageContext.request.contextPath}</h2>
 						<h2>${makeupBlog.title}</h2>
 						<!--<p class="thedate"><strong>2018-04-26</strong></p>-->
 						<div class="entry-content">
@@ -194,19 +128,7 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 
 
 					</div>
-					<!-- .hentry -->
-
-
-
-
-
-
-
 				</div>
-				<!-- .content .hfeed -->
-
-
-
 				<footer id="contact">
 					<div class="fcont_wrap">
 						<ul class="footer_col" style="text-align: left;">
@@ -258,17 +180,11 @@ var ftsAjax = {"ajaxurl":"http:\/\/swativerma.com\/wp-admin\/admin-ajax.php"};
 
 
 		</div>
-		<!-- #body-container -->
-
-
-
-
-
-
+		</div>
 		<script type='text/javascript'
-			src='http://swativerma.com/wp-content/themes/hybrid/library/js/drop-downs.min.js?ver=20110920'></script>
+			src="${pageContext.request.contextPath}/static/js/drop-downs.min.js"></script>
 		<script type='text/javascript'
-			src='http://swativerma.com/wp-includes/js/wp-embed.min.js?ver=4.9.10'></script>
+			src="${pageContext.request.contextPath}/static/js/wp-embed.min.js"></script>
 
 		<script type="text/javascript">
 	
@@ -301,16 +217,11 @@ biglogo
     else if (Modernizr.mq("screen and (max-width:1200px)")) {
     var controller = new ScrollMagic.Controller
 
-
-
 var menu = new ScrollMagic.Scene({triggerElement: ".init",triggerHook: "onLeave", offset:0})
 .setTween(".home .main_logo", {opacity: "1"});
 
 var afterscroll = new ScrollMagic.Scene({triggerElement: ".init", triggerHook: "onLeave", offset:0})
 .setClassToggle("header", "afterscroll"); 
-
-
-
 
 controller.addScene([
 menu,
@@ -330,19 +241,6 @@ $(window).resize(function () {
 doneResizing();
 
 </script>
-
-
-
-
-
-		<script type="text/javascript"
-			src="http://swativerma.com/wp-content/themes/swati/js/main.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/main.js"></script>
 </body>
-
 </html>
-
-
-<!-- Dynamic page generated in 0.212 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2019-08-16 19:53:35 -->
-
-<!-- super cache -->
