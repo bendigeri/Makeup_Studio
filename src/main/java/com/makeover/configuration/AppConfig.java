@@ -23,7 +23,7 @@ import com.makeover.converter.RoleToUserProfileConverter;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.websystique.springmvc")
+@ComponentScan(basePackages = "com.makeover")
 public class AppConfig extends WebMvcConfigurerAdapter{
 	
 	

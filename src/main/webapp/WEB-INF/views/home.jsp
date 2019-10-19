@@ -10,6 +10,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
 <link
 	href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900'
 	rel='stylesheet' type='text/css'>
@@ -37,6 +38,132 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 
 <style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
 </style>
 <meta name="generator" content="WordPress 4.9.10" />
 <meta name="template" content="Hybrid 1.2" />
@@ -89,8 +216,9 @@ img.wp-smiley, img.emoji {
 			<header>
 				<nav class="desktop_nav">
 					<div class="main_logo">
-						<a href="http://swativerma.com/"><img
-							src="http://swativerma.com/wp-content/themes/swati/img/logo_symbolonly.svg"></a>
+						<!-- <a href="http://swativerma.com/"><img
+							src="http://swativerma.com/wp-content/themes/swati/img/logo_symbolonly.svg"></a> -->
+							
 					</div>
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 					<ul class="navigation">
@@ -138,9 +266,8 @@ $(document).ready(readyFn);
 				<section class="full" id="index"
 					style="background-image: url(./static/images/swati.jpg);">
 
-					<img class="home_logo"
-						src="http://swativerma.com/wp-content/themes/swati/img/logo_symbol.svg">
-
+					<!-- <img class="home_logo"
+						src="static/images/logo_manjuVikrant.svg"> -->
 				</section>
 
 				<!-- **************************************************************************************** -->
@@ -378,14 +505,7 @@ $(document).ready(readyFn);
 
 		<!-- **************************************************************************************** -->
 		<footer id="contact">
-			<div class="fcont_wrap">
-				<ul class="footer_col" style="text-align: left;">
-					<li><p>© Swati Verma 2019</p></li>
-					<li><p>
-							<strong>My aim is to make every woman feel truly
-								HEAVENLY!</strong>
-						</p></li>
-				</ul>
+			<!-- <div class="fcont_wrap">
 
 				<ul class="footer_col">
 					<li><p>
@@ -402,20 +522,19 @@ $(document).ready(readyFn);
 				</ul>
 
 				<ul class="footer_col" style="text-align: right;">
-					<li><p>
-							<a href="/services">Interested in Swatis make-up? <strong
-								style="text-decoration: underline;">Book now!</strong></a>
-						</p></li>
-					<li><p>
-							Contact us <strong><a href="mailto:info@swativerma.com">info@swativerma.com</a></strong>
-						</p></li>
-					<li><p>
-							Read <strong><a href="/terms-and-conditions">Terms
-									and Conditions</a></strong>
-						</p></li>
-
 				</ul>
-			</div>
+			</div> -->
+			<div class="footer-social-icons">
+    <h4 class="_14">Follow us on</h4>
+    <ul class="social-icons">
+        <li><a href="" class="social-icon"> <i class="fa fa-f acebook"></i></a></li>
+       <!--  <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li> -->
+        <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+       <!--  <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li> -->
+        <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+    </ul>
+</div>
 		</footer>
 
 
