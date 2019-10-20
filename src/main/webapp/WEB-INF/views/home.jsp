@@ -184,7 +184,24 @@ img.wp-smiley, img.emoji {
 	padding: 0 !important;
 }
 </style>
+<style type="text/css">
+#rotating-item-wrapper {
+	position: relative;
+	padding: 30% 0;
+	margin: 0 0 30px;
+}
 
+#rotating-item-wrapper li {
+	position: absolute;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+</style>
 <link rel='stylesheet' id='fts-feeds-css'
 	href='./static/css/styles_4.9.10.css' type='text/css' media='all' />
 <link rel='stylesheet' id='fts-popup-css'
@@ -211,8 +228,8 @@ img.wp-smiley, img.emoji {
 
 <body
 	class="wordpress ltr en_US child-theme y2019 m08 d11 h14 sunday logged-out home singular singular-page singular-page-8 page-template-start page-8 chrome primary-active secondary-inactive subsidiary-inactive">
-	<div id="body-container">
-		<div id="container">
+	<div id="">
+		<div id="">
 			<header>
 				<nav class="desktop_nav">
 					<div class="main_logo">
@@ -236,7 +253,10 @@ img.wp-smiley, img.emoji {
 							href="<c:url value='/myblogs'/>">My Blog</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
+							href="<c:url value='/contact'/>">Contact</a></li>
+				<%-- 		<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li> --%>
 					</ul>
 				</nav>
 			</header>
@@ -263,72 +283,15 @@ $(document).ready(readyFn);
 
 			<div class="init" id="">
 
-				<section class="full" id="index"
-					style="background-image: url(./static/images/swati.jpg);">
+				<section class="" id="index"
+					style="background-image: url(./static/images/IMG_HOME.jpg); height: 700px;">
 
 					<!-- <img class="home_logo"
 						src="static/images/logo_manjuVikrant.svg"> -->
 				</section>
 
-				<!-- **************************************************************************************** -->
-
-
-
-				<!-- <section class="" id="about">
-
-
-
-	<div class="dark_content">
-
-<div class="content">
-
-
-
-	<img src="http://swativerma.com/wp-content/themes/swati/img/swati_header.svg">
-
-
-
-<p><strong>My aim is to make every woman feel truly HEAVENLY!</strong></p>
-<p>Make-up is my passion and after 7 years as a highly respected and renowned PRO make-up artist I’m thrilled to be able to share with you all my expert industry knowledge, beauty HACKS and more, here on my very own exclusive website.</p>
-<p>My career has allowed me to visit some of the most gorgeous locations the world has to offer. I LOVE the sense of adventure that comes with being a global make-up artist. Creating the ultimate FLAWLESS complexion for my many famous clients makes everyday utterly magical. I just want to inspire women from all over the world to be the most beautiful version of themselves.</p>
-<p>I feel truly blessed that I get to meet so many incredible women each and every day! I especially adore working with brides, as it&#8217;s such a huge honour to create the ultimate glamorous look for someone on the most important day of their life.</p>
-<p>To ensure that you don’t miss a second of my incredibly exciting and creative journey, I’d like to invite you now to follow me on Instagram <a href="https://www.instagram.com/swativerma/" target="_blank" rel="noopener">@SWATIVERMA</a></p>
-
-
-
-	<img class="xoxo" src="http://swativerma.com/wp-content/themes/swati/img/swati_xoxo.svg">
-
-
-
-</div> -->
 
 			</div>
-
-
-
-			</section>
-
-			<!-- **************************************************************************************** -->
-
-			<style type="text/css">
-#rotating-item-wrapper {
-	position: relative;
-	padding: 30% 0;
-	margin: 0 0 30px;
-}
-
-#rotating-item-wrapper li {
-	position: absolute;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
-</style>
-
 
 			<script type="text/javascript">
     jQuery.noConflict();

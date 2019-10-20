@@ -85,8 +85,8 @@ body, html {
 }
 
 body {
-	background-color: rgba(240, 191, 195, 1);
-	color: rgba(35, 31, 32, 1);
+	background-color: #1B1A1F;
+	color: #FFF;
 	font-family: Roboto, sans-serif;
 	font-size: 100%;
 	line-height: normal;
@@ -208,7 +208,7 @@ header {
 header.afterscroll {
 	position: fixed;
 	top: 0;
-	background: #fff;
+	background: #272731;
 	padding: 20px 0
 }
 
@@ -934,14 +934,6 @@ blockquote p:after {
 }
 
 .navigation li:last-child {
-	border: 1px solid #221f20;
-	padding: 8px;
-	margin-left: 17px;
-	position: relative;
-	top: -9px;
-	color: #221f20;
-	border-radius: 2px;
-	background: #f1bfc1;
 }
 
 .navigation li:last-child a:hover {

@@ -3,48 +3,48 @@
 <%@ page isELIgnored="false"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <!DOCTYPE html>
 <html lang="en-US"
 	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 <head>
+<link rel="stylesheet"
+	href="./static/css/style.css"
+	type="text/css" media="all" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
-	
-<link rel="stylesheet" href="./static/css/style.css" type='text/css' media="all">
-<link rel="stylesheet" href="./static/css/font-awesome.min.css">
-<link rel="stylesheet" href="./static/css/lightbox.css">
+<link
+	href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900'
+	rel='stylesheet' type='text/css'>
+<link
+	href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
+	rel="stylesheet">
+<link rel="stylesheet"
+	href="./static/css/font-awesome.min.css">
+<link rel="stylesheet"
+	href="./static/css/lightbox.css">
 
-<script type="text/javascript" src="./static/js/modernizr.js"></script>
-<script type="text/javascript" src="./static/js/TweenMax.min.js"></script>
-<script type="text/javascript" src="./static/js/ScrollToPlugin.min.js"></script>
-<script type="text/javascript" src="./static/js/ScrollMagic.js"></script>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+<script
+	src="${pageContext.request.contextPath}/static/js/modernizr.js"></script>
 <script type="text/javascript"
-	src="./static/js/plugins/animation.gsap.js"></script>
-<script type="text/javascript" src="./static/js/lightbox.js"></script>
-<link rel='stylesheet' id='fts-feeds-css' href='./static/css/styles_4.9.10.css' type='text/css' media='all' />
-<link rel='stylesheet' id='fts-popup-css'
-	href='./static/css/magnific-popup.css?ver=4.9.10'
-	type='text/css' media='all' />
-<script type='text/javascript'
-	src='./static/js/jquery.js'></script>
-<script type='text/javascript'
-	src='./static/js/jquery-migrate.min.js'></script>
-<script type='text/javascript'
-	src='./static/js/admin.js'></script>
-<script type='text/javascript'
-	src='./static/js/masonry.pkgd.min.js'></script>
-<script type='text/javascript'
-	src='./static/js/imagesloaded.pkgd.min.js'></script>
-<script type='text/javascript'
-	src='./static/js/fts-global.js'></script>
-<script type='text/javascript'
-	src='./static/js/magnific-popup.js'></script>
+	src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/static/js/ScrollToPlugin.min.js"></script>
+<script
+	src="${pageContext.request.contextPath}/static/js/ScrollMagic.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/static/js/plugins/animation.gsap.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/static/js/lightbox.js"></script>
 
 <title>Know Me</title>
+
 <style type="text/css">
 </style>
 <style type="text/css">
@@ -60,17 +60,60 @@ img.wp-smiley, img.emoji {
 	padding: 0 !important;
 }
 </style>
+<link rel='stylesheet' id='fts-feeds-css'
+	href='./static/css/styles_4.9.10.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fts-popup-css'
+	href='./static/css/magnific-popup.css?ver=4.9.10' type='text/css'
+	media='all' />
+<script type='text/javascript' src='./static/js/jquery.js'></script>
+<script type='text/javascript'
+	src='./static/js/jquery-migrate.min.js'></script>
+<style type="text/css">
+.recentcomments a {
+	display: inline !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+</style>
+
+
+
+
+
 </head>
 
-<body class="wordpress ltr en_US child-theme y2019 m08 d11 h18 sunday logged-out singular singular-page singular-page-30 page-template-flow page-30 chrome primary-active secondary-inactive subsidiary-inactive">
-	<div id="body-container">
-		<div id="container">
+<body
+	class="wordpress ltr en_US child-theme y2019 m10 d20 h19 sunday logged-out singular singular-page singular-page-30 page-template-flow page-30 chrome primary-active secondary-inactive subsidiary-inactive">
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101676500-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+	<div id="">
+
+
+
+		<div id="">
+
+
+
 			<header>
+
 				<nav class="desktop_nav">
-					<div class="main_logo">
-						<a href="http://swativerma.com/"><img
-							src="http://swativerma.com/wp-content/themes/swati/img/logo_symbolonly.svg"></a>
-					</div>
+
+					<style type="text/css">
+</style>
+
+
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 
 					<ul class="navigation">
@@ -85,7 +128,7 @@ img.wp-smiley, img.emoji {
 							href="<c:url value='/gallery'/>">Gallary</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/myblog'/>">My Blog</a></li>
+							href="<c:url value='/myblogs'/>">My Blog</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
@@ -95,12 +138,19 @@ img.wp-smiley, img.emoji {
 			</header>
 
 
+
+
+			<!-- **************************************************************************************** -->
 			<div class="init" id="">
+				<!-- **************************************************************************************** -->
+
 				<section class="" id="flow">
+
+
 					<div class="flow_content firsttext">
 						<div class="flow_inside image left">
 							<img
-								src="http://swativerma.com/wp-content/uploads/2017/05/IMG_0571-1_2-2.png">
+								src="./static/images/IMG_7340.jpg">
 						</div>
 						<div class="flow_inside text right">
 							<h2>Swati Verma is a consummate visionary</h2>
@@ -113,8 +163,8 @@ img.wp-smiley, img.emoji {
 								understanding of make-up and her hard-working, professional
 								approach has made her indispensable to elite clientele.</p>
 							<p>
-								<strong>Swati’s style</strong><br /> Swati is very conscious
-								of the brands she endorses and uses as a professional make-up
+								<strong>Swati’s style</strong><br /> Swati is very conscious of
+								the brands she endorses and uses as a professional make-up
 								artist. Her vanity case is full of the best brands in the
 								industry. With face creams from the skincare experts at Caudalie
 								to the bold lip colours from Nars and Gucci. Rest assured that
@@ -130,7 +180,22 @@ img.wp-smiley, img.emoji {
 								Klein. Both these iconic brands epitomise glamour and
 								sophistication, like Swati herself.</p>
 						</div>
+
 					</div>
+
+					<ul class="contact_social">
+						<li><h2>Don’t forget to follow my journey on social
+								media</h2></li>
+						<li><a href="https://www.instagram.com/swativerma/"
+							target="_blank"><i class="fa fa-instagram"></i></a> <a
+							href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
+							target="_blank"><i class="fa fa-youtube"></i></a> <a
+							href="https://www.facebook.com/swativermaofficial"
+							target="_blank"><i class="fa fa-facebook"></i></a> <a
+							href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
+								class="fa fa-snapchat-ghost"></i></a></li>
+					</ul>
+
 					<div class="flow_content secondtext">
 						<div class="flow_inside text left">
 							<h2>Beauty school & beyond</h2>
@@ -165,35 +230,17 @@ img.wp-smiley, img.emoji {
 						</div>
 						<div class="flow_inside image right">
 							<img
-								src="http://swativerma.com/wp-content/uploads/2017/05/2_edit3.png">
+								src="./static/images/IMG_8880.JPG">
 						</div>
 					</div>
-
-					<!-- <div class="flow_content punchline">
-						<div class="flow_inside center">
-							<p>&#8220;Swati is a fabulous makeup artist. She knows what
-								she is doing and listens to her clients very carefully. She
-								really understands what the other person wants and and does
-								amazing work. Swati use only great products and gives advice on
-								how to apply them. Best things about Swati is that she has great
-								patience and she works with all her heart&#8221;</p>
-							<p>
-								<strong>/ Supriya Kamboj</strong>
-							</p>
-						</div>
-					</div>
-
- -->
-
-
 
 
 					<div class="portfolio_text">
 						<h2>Private Collection</h2>
 						<p>Being a make-up artist I get to travel the world. Creating
 							new looks and meeting so many exciting people. But when I’m not
-							working I LOVE to relax at a café, coffee in-hand and soak up
-							the culture of each new city.</p>
+							working I LOVE to relax at a café, coffee in-hand and soak up the
+							culture of each new city.</p>
 					</div>
 
 
@@ -244,15 +291,24 @@ img.wp-smiley, img.emoji {
 						</a>
 
 
-						<a href="http://swativerma.com/wp-content/uploads/2017/05/DSC_2572.jpg" data-lightbox="services-set" data-title="">
-							<li><span style="background-image: url(http://swativerma.com/wp-content/uploads/2017/05/DSC_2572.jpg);"></span>
+						<a
+							href="http://swativerma.com/wp-content/uploads/2017/05/DSC_2572.jpg"
+							data-lightbox="services-set" data-title="">
+							<li><span
+								style="background-image: url(http://swativerma.com/wp-content/uploads/2017/05/DSC_2572.jpg);"></span>
 						</li>
 						</a>
 
 					</ul>
 
 				</section>
+
+
 			</div>
+
+
+
+
 
 			<footer id="contact">
 				<div class="fcont_wrap">
@@ -280,16 +336,9 @@ img.wp-smiley, img.emoji {
 
 					<ul class="footer_col" style="text-align: right;">
 						<li><p>
-								<a href="/services">Interested in Swatis make-up? <strong
-									style="text-decoration: underline;">Book now!</strong></a>
+								Contact us <strong><a href="mailto:info@swativerma.com">manjuvanivikrant@gmail.com</a></strong>
 							</p></li>
-						<li><p>
-								Contact us <strong><a href="mailto:info@swativerma.com">info@swativerma.com</a></strong>
-							</p></li>
-						<li><p>
-								Read <strong><a href="/terms-and-conditions">Terms
-										and Conditions</a></strong>
-							</p></li>
+						
 
 					</ul>
 				</div>
@@ -312,9 +361,9 @@ img.wp-smiley, img.emoji {
 
 
 	<script type='text/javascript'
-		src="./static/js/drop-downs.min.js"></script>
+		src='http://swativerma.com/wp-content/themes/hybrid/library/js/drop-downs.min.js?ver=20110920'></script>
 	<script type='text/javascript'
-		src="./static/js/wp-embed.min.js"></script>
+		src='http://swativerma.com/wp-includes/js/wp-embed.min.js?ver=4.9.12'></script>
 
 	<script type="text/javascript">
 	
@@ -382,8 +431,15 @@ doneResizing();
 
 
 	<script type="text/javascript"
-		src="./static/js/main.js"></script>
+		src="${pageContext.request.contextPath}/static/js/main.js"></script>
 
 </body>
 
 </html>
+
+
+
+<!-- Dynamic page generated in 0.456 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-10-20 19:59:45 -->
+
+<!-- super cache -->
