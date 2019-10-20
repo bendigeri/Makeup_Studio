@@ -3,13 +3,14 @@
 <%@ page isELIgnored="false"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <!DOCTYPE html>
 <html lang="en-US"
 	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/static/css/style.css"
+	type="text/css" media="all" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,23 +22,32 @@
 	rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
 	rel="stylesheet">
-
-
-<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/style.css" type='text/css'>
-<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/font-awesome.min.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/lightbox.css">
-<title>${makeupBlog.title}</title>
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/static/css/font-awesome.min.css">
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/static/css/lightbox.css">
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	crossorigin="anonymous"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/modernizr.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/ScrollToPlugin.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/ScrollMagic.js"></script>
+<script
+	src="${pageContext.request.contextPath}/static/js/modernizr.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/static/js/ScrollToPlugin.min.js"></script>
+<script
+	src="${pageContext.request.contextPath}/static/js/ScrollMagic.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/static/js/plugins/animation.gsap.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/lightbox.js"></script><style type="text/css">
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/static/js/lightbox.js"></script>
+
+<title>Know Me</title>
+
+<style type="text/css">
+</style>
+<style type="text/css">
 img.wp-smiley, img.emoji {
 	display: inline !important;
 	border: none !important;
@@ -53,16 +63,11 @@ img.wp-smiley, img.emoji {
 <link rel='stylesheet' id='fts-feeds-css'
 	href='${pageContext.request.contextPath}/static/css/styles_4.9.10.css' type='text/css' media='all' />
 <link rel='stylesheet' id='fts-popup-css'
-	href='${pageContext.request.contextPath}/static/css/magnific-popup.css?ver=4.9.10' type='text/css'
+	href='${pageContext.request.contextPath}/static/css/magnific-popup.css' type='text/css'
 	media='all' />
 <script type='text/javascript' src='${pageContext.request.contextPath}/static/js/jquery.js'></script>
-<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/admin.js'></script>
-<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/masonry.pkgd.min.js'></script>
 <script type='text/javascript'
-	src='${pageContext.request.contextPath}/static/js/imagesloaded.pkgd.min.js'></script>
-<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/fts-global.js'></script>
-<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/magnific-popup.js'></script>
+	src='${pageContext.request.contextPath}/static/js/jquery-migrate.min.js'></script>
 <style type="text/css">
 .recentcomments a {
 	display: inline !important;
@@ -70,43 +75,78 @@ img.wp-smiley, img.emoji {
 	margin: 0 !important;
 }
 </style>
+
+
+
+
+
 </head>
 
 <body
-	class="wordpress ltr en_US child-theme y2019 m08 d16 h19 friday logged-out singular singular-post singular-post-1175 single-1175 chrome primary-active secondary-inactive subsidiary-inactive">
+	class="wordpress ltr en_US child-theme y2019 m10 d20 h19 sunday logged-out singular singular-page singular-page-30 page-template-flow page-30 chrome primary-active secondary-inactive subsidiary-inactive">
 
-	<div id="body-container">
-		<div id="container">
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101676500-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+	<div id="">
+
+
+
+		<div id="">
+
+
+
 			<header>
+
 				<nav class="desktop_nav">
-					<div class="main_logo">
-						<a href="http://swativerma.com/"><img
-							src="http://swativerma.com/wp-content/themes/swati/img/logo_symbolonly.svg"></a>
-					</div>
+
+					<style type="text/css">
+</style>
+
+
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 
 					<ul class="navigation">
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/'/>">Home</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/about'/>">Know Me</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/gallery'/>">Gallary</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/myblog'/>">My Blog</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/myblogs'/>">My Blog</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
 					</ul>
 				</nav>
 
 			</header>
 
-			<div class="init text_page" id="">
-
-				<div id="pagepost" class="hfeed">
 
 
-					<div id="post-1175"
+
+			<!-- **************************************************************************************** -->
+			<div class="init" id="">
+				<!-- **************************************************************************************** -->
+
+				<section class="" id="flow">
+
+					<div id=""
 						class="hentry post publish post-1 odd author-swatieditor category-personal category-sponsored post_tag-audiobooks post_tag-personal-development post_tag-swati-verma post_tag-travel">
 						<h2>${makeupBlog.title}</h2>
 						<!--<p class="thedate"><strong>2018-04-26</strong></p>-->
@@ -128,65 +168,67 @@ img.wp-smiley, img.emoji {
 
 
 					</div>
-				</div>
-				<footer id="contact">
-					<div class="fcont_wrap">
-						<ul class="footer_col" style="text-align: left;">
-							<li><p>© Swati Verma 2019</p></li>
-							<li><p>
-									<strong>My aim is to make every woman feel truly
-										HEAVENLY!</strong>
-								</p></li>
-						</ul>
-
-						<ul class="footer_col">
-							<li><p>
-									<strong>Follow me on</strong>
-								</p></li>
-							<li><a href="https://www.instagram.com/swativerma/"
-								target="_blank"><i class="fa fa-instagram"></i></a> <a
-								href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
-								target="_blank"><i class="fa fa-youtube"></i></a> <a
-								href="https://www.facebook.com/swativermaofficial"
-								target="_blank"><i class="fa fa-facebook"></i></a> <a
-								href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
-									class="fa fa-snapchat-ghost"></i></a></li>
-						</ul>
-
-						<ul class="footer_col" style="text-align: right;">
-							<li><p>
-									<a href="/services">Interested in Swatis make-up? <strong
-										style="text-decoration: underline;">Book now!</strong></a>
-								</p></li>
-							<li><p>
-									Contact us <strong><a
-										href="mailto:info@swativerma.com">info@swativerma.com</a></strong>
-								</p></li>
-							<li><p>
-									Read <strong><a href="/terms-and-conditions">Terms
-											and Conditions</a></strong>
-								</p></li>
-
-						</ul>
-					</div>
-				</footer>
-
+				</section>
 
 
 			</div>
-			<!-- #container -->
 
+			<footer id="contact">
+				<div class="fcont_wrap">
+					<ul class="footer_col" style="text-align: left;">
+						<li><p>© Swati Verma 2019</p></li>
+						<li><p>
+								<strong>My aim is to make every woman feel truly
+									HEAVENLY!</strong>
+							</p></li>
+					</ul>
+
+					<ul class="footer_col">
+						<li><p>
+								<strong>Follow me on</strong>
+							</p></li>
+						<li><a href="https://www.instagram.com/swativerma/"
+							target="_blank"><i class="fa fa-instagram"></i></a> <a
+							href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
+							target="_blank"><i class="fa fa-youtube"></i></a> <a
+							href="https://www.facebook.com/swativermaofficial"
+							target="_blank"><i class="fa fa-facebook"></i></a> <a
+							href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
+								class="fa fa-snapchat-ghost"></i></a></li>
+					</ul>
+
+					<ul class="footer_col" style="text-align: right;">
+						<li><p>
+								Contact us <strong><a href="mailto:info@swativerma.com">manjuvanivikrant@gmail.com</a></strong>
+							</p></li>
+						
+
+					</ul>
+				</div>
+			</footer>
 
 
 
 		</div>
-		</div>
-		<script type='text/javascript'
-			src="${pageContext.request.contextPath}/static/js/drop-downs.min.js"></script>
-		<script type='text/javascript'
-			src="${pageContext.request.contextPath}/static/js/wp-embed.min.js"></script>
+		<!-- #container -->
 
-		<script type="text/javascript">
+
+
+
+	</div>
+	<!-- #body-container -->
+
+
+
+
+
+
+	<script type='text/javascript'
+		src="${pageContext.request.contextPath}/static/js/drop-downs.min.js"></script>
+	<script type='text/javascript'
+		src="${pageContext.request.contextPath}/static/js/wp-embed.min.js"></script>
+
+	<script type="text/javascript">
 	
 //Function to react to screen re-sizing
 function doneResizing() {
@@ -217,11 +259,16 @@ biglogo
     else if (Modernizr.mq("screen and (max-width:1200px)")) {
     var controller = new ScrollMagic.Controller
 
+
+
 var menu = new ScrollMagic.Scene({triggerElement: ".init",triggerHook: "onLeave", offset:0})
 .setTween(".home .main_logo", {opacity: "1"});
 
 var afterscroll = new ScrollMagic.Scene({triggerElement: ".init", triggerHook: "onLeave", offset:0})
 .setClassToggle("header", "afterscroll"); 
+
+
+
 
 controller.addScene([
 menu,
@@ -241,6 +288,21 @@ $(window).resize(function () {
 doneResizing();
 
 </script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/main.js"></script>
+
+
+
+
+
+	<script type="text/javascript"
+		src="${pageContext.request.contextPath}/static/js/main.js"></script>
+
 </body>
+
 </html>
+
+
+
+<!-- Dynamic page generated in 0.456 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-10-20 19:59:45 -->
+
+<!-- super cache -->

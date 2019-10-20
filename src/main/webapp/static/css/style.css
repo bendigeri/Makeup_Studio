@@ -662,7 +662,9 @@ input {
 }
 
 #ninja_forms_required_items, .nf-field-container {
-	margin-bottom: 10px !important
+	margin-bottom: 10px !important;
+	background-color: white;
+	
 }
 
 .nf-error .ninja-forms-field {
@@ -882,6 +884,7 @@ blockquote p:after {
 	width: 75%;
 	margin: 0 auto;
 	display: table;
+	color: black;
 }
 
 .blog_content_wrap p {

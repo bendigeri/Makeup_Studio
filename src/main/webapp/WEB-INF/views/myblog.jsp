@@ -9,7 +9,7 @@
 	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 <head>
 <link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/style.css"
+	href="./static/css/style.css"
 	type="text/css" media="all" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,31 +27,28 @@
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
 	rel="stylesheet">
 <link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/css/font-awesome.min.css">
+	href="./static/css/font-awesome.min.css">
 <link rel="stylesheet"
-	href="http://swativerma.com/wp-content/themes/swati/css/lightbox.css">
+	href="./static/css/lightbox.css">
+
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	crossorigin="anonymous"></script>
 <script
-	src="http://swativerma.com/wp-content/themes/swati/js/modernizr.js"></script>
+	src="${pageContext.request.contextPath}/static/js/modernizr.js"></script>
 <script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/TweenMax.min.js"></script>
+	src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
 <script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/ScrollToPlugin.min.js"></script>
+	src="${pageContext.request.contextPath}/static/js/ScrollToPlugin.min.js"></script>
 <script
-	src="http://swativerma.com/wp-content/themes/swati/js/ScrollMagic.js"></script>
+	src="${pageContext.request.contextPath}/static/js/ScrollMagic.js"></script>
 <script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/plugins/animation.gsap.js"></script>
+	src="${pageContext.request.contextPath}/static/js/plugins/animation.gsap.js"></script>
 <script type="text/javascript"
-	src="http://swativerma.com/wp-content/themes/swati/js/lightbox.js"></script>
+	src="${pageContext.request.contextPath}/static/js/lightbox.js"></script>
 
 <title>My Blogs</title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="http://swativerma.com/xmlrpc.php" />
-
-
 <style type="text/css">
 </style>
 <meta name="generator" content="WordPress 4.9.10" />
@@ -129,11 +126,11 @@ img.wp-smiley, img.emoji {
 
 
 
-	<div id="body-container">
+	<div id="">
 
 
 
-		<div id="container">
+		<div id="">
 
 
 
@@ -161,7 +158,7 @@ img.wp-smiley, img.emoji {
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/gallery'/>">Gallary</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/myblog'/>">My Blog</a></li>
+							href="<c:url value='/myblogs'/>">My Blog</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
 					</ul>
@@ -180,8 +177,8 @@ img.wp-smiley, img.emoji {
 							class="sep">/</span> <span class="trail-end">Blog</span>
 					</div>
 					<div class="blogintro">
-						<h1>Swati’s World</h1>
-						<p>Read Swati’s take on all the HOTTEST global make-up and
+						<h1>Swatiâs World</h1>
+						<p>Read Swatiâs take on all the HOTTEST global make-up and
 							beauty trends.</p>
 					</div>
 
@@ -220,7 +217,6 @@ img.wp-smiley, img.emoji {
 			<footer id="contact">
 				<div class="fcont_wrap">
 					<ul class="footer_col" style="text-align: left;">
-						<li><p>© Swati Verma 2019</p></li>
 						<li><p>
 								<strong>My aim is to make every woman feel truly
 									HEAVENLY!</strong>
@@ -242,17 +238,11 @@ img.wp-smiley, img.emoji {
 					</ul>
 
 					<ul class="footer_col" style="text-align: right;">
+						
 						<li><p>
-								<a href="/services">Interested in Swatis make-up? <strong
-									style="text-decoration: underline;">Book now!</strong></a>
+								Contact us <strong><a href="mailto:info@swativerma.com">manjuvaniVikrant@gmail.com</a></strong>
 							</p></li>
-						<li><p>
-								Contact us <strong><a href="mailto:info@swativerma.com">info@swativerma.com</a></strong>
-							</p></li>
-						<li><p>
-								Read <strong><a href="/terms-and-conditions">Terms
-										and Conditions</a></strong>
-							</p></li>
+						
 
 					</ul>
 				</div>

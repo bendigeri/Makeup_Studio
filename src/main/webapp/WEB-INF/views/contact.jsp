@@ -102,20 +102,15 @@ img.wp-smiley, img.emoji {
 <body
 	class="wordpress ltr en_US child-theme y2019 m08 d11 h16 sunday logged-out singular singular-page singular-page-18 page-template-flow page-18 chrome primary-active secondary-inactive subsidiary-inactive">
 
-	<div id="body-container">
+	<div id="">
 	
-		<div id="container">
+		<div id="">
 
 
 
 			<header>
 
 				<nav class="desktop_nav">
-
-					<div class="main_logo">
-						<a href="http://swativerma.com/"><img
-							src="http://swativerma.com/wp-content/themes/swati/img/logo_symbolonly.svg"></a>
-					</div>
 
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 
@@ -127,7 +122,7 @@ img.wp-smiley, img.emoji {
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/gallery'/>">Gallary</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/myblog'/>">My Blog</a></li>
+							href="<c:url value='/myblogs'/>">My Blog</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
 					</ul>
@@ -344,7 +339,6 @@ img.wp-smiley, img.emoji {
 			<footer id="contact">
 				<div class="fcont_wrap">
 					<ul class="footer_col" style="text-align: left;">
-						<li><p>© Swati Verma 2019</p></li>
 						<li><p>
 								<strong>My aim is to make every woman feel truly
 									HEAVENLY!</strong>
@@ -367,16 +361,9 @@ img.wp-smiley, img.emoji {
 
 					<ul class="footer_col" style="text-align: right;">
 						<li><p>
-								<a href="/services">Interested in Swatis make-up? <strong
-									style="text-decoration: underline;">Book now!</strong></a>
+								Contact us <strong><a href="mailto:info@swativerma.com">manjuvaniVikrant@gmail.com</a></strong>
 							</p></li>
-						<li><p>
-								Contact us <strong><a href="mailto:info@swativerma.com">info@swativerma.com</a></strong>
-							</p></li>
-						<li><p>
-								Read <strong><a href="/terms-and-conditions">Terms
-										and Conditions</a></strong>
-							</p></li>
+						
 
 					</ul>
 				</div>

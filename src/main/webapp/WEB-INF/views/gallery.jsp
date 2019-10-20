@@ -92,23 +92,17 @@ img.wp-smiley, img.emoji {
 
 
 
-	<div id="body-container">
+	<div id="">
 
 
 
-		<div id="container">
+		<div id="">
 
 
 
 			<header>
 
 				<nav class="desktop_nav">
-
-					<div class="main_logo">
-						<a href="http://swativerma.com/"><img
-							src="http://swativerma.com/wp-content/themes/swati/img/logo_symbolonly.svg"></a>
-					</div>
-
 
 					<style type="text/css">
 </style>

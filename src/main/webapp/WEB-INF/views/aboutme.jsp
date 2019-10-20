@@ -361,9 +361,9 @@ img.wp-smiley, img.emoji {
 
 
 	<script type='text/javascript'
-		src='http://swativerma.com/wp-content/themes/hybrid/library/js/drop-downs.min.js?ver=20110920'></script>
+		src="${pageContext.request.contextPath}/static/js/drop-downs.min.js"></script>
 	<script type='text/javascript'
-		src='http://swativerma.com/wp-includes/js/wp-embed.min.js?ver=4.9.12'></script>
+		src="${pageContext.request.contextPath}/static/js/wp-embed.min.js"></script>
 
 	<script type="text/javascript">
 	
