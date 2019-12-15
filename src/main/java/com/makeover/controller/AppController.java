@@ -98,19 +98,20 @@ public class AppController {
 		List<Gallery> galleryPhotos= galleryService.getGalleryImages();
 		List<MakeupBlog> blogs= makeupBlogService.blogList();
 		
-		MakeupBlog makeupBlog = Collections.max(blogs, new Comparator<MakeupBlog>() {
+		if(!blogs.isEmpty()) {
+			MakeupBlog makeupBlog = Collections.max(blogs, new Comparator<MakeupBlog>() {
 
-			@Override
-			public int compare(MakeupBlog o1, MakeupBlog o2) {
-				// TODO Auto-generated method stub
-				return Integer.compare(o1.getId(), o2.getId());
-			}
-		});
-
-		
+				@Override
+				public int compare(MakeupBlog o1, MakeupBlog o2) {
+					// TODO Auto-generated method stub
+					return Integer.compare(o1.getId(), o2.getId());
+				}
+			});
+		model.addObject("makeupBlog", makeupBlog);
+		}
 		
     	model.addObject("galleryPhotos", galleryPhotos);
-    	model.addObject("makeupBlog", makeupBlog);
+    	
     	model.setViewName("home");
 		return model;
 	}

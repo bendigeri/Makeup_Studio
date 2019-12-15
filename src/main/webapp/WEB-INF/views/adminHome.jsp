@@ -9,8 +9,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- <link rel="shortcut icon" href="http://swativerma.com/wp-content/themes/swati/img/logo.svg" type="image/x-icon" /> -->
-
 <link
 	href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,900'
 	rel='stylesheet' type='text/css'>
@@ -61,25 +59,20 @@ img.wp-smiley, img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='fts-feeds-css' href='./static/css/styles_4.9.10.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fts-feeds-css'
+	href='./static/css/styles_4.9.10.css' type='text/css' media='all' />
 <link rel='stylesheet' id='fts-popup-css'
-	href='./static/css/magnific-popup.css?ver=4.9.10'
-	type='text/css' media='all' />
-<script type='text/javascript'
-	src='./static/js/jquery.js'></script>
-<script type='text/javascript'
-	src='./static/js/jquery-migrate.min.js'></script>
-<script type='text/javascript'
-	src='./static/js/admin.js'></script>
-<script type='text/javascript'
-	src='./static/js/masonry.pkgd.min.js'></script>
+	href='./static/css/magnific-popup.css?ver=4.9.10' type='text/css'
+	media='all' />
+<script type='text/javascript' src='./static/js/jquery.js'></script>
+<script type='text/javascript' src='./static/js/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='./static/js/admin.js'></script>
+<script type='text/javascript' src='./static/js/masonry.pkgd.min.js'></script>
 <script type='text/javascript'
 	src='./static/js/imagesloaded.pkgd.min.js'></script>
-<script type='text/javascript'
-	src='./static/js/fts-global.js'></script>
-<script type='text/javascript'
-	src='./static/js/magnific-popup.js'></script>
-	
+<script type='text/javascript' src='./static/js/fts-global.js'></script>
+<script type='text/javascript' src='./static/js/magnific-popup.js'></script>
+
 <style type="text/css">
 .recentcomments a {
 	display: inline !important;
@@ -87,45 +80,36 @@ img.wp-smiley, img.emoji {
 	margin: 0 !important;
 }
 </style>
-
-
-
-
-
 </head>
 
 <body
 	class="wordpress ltr en_US child-theme y2019 m08 d11 h14 sunday logged-out home singular singular-page singular-page-8 page-template-start page-8 chrome primary-active secondary-inactive subsidiary-inactive">
-	<div id="body-container">
-		<div id="container">
+	<div id="">
+		<div id="">
 			<header>
 				<nav class="desktop_nav">
-					<div class="main_logo">
-						<a href="http://swativerma.com/"><img
-							src="http://swativerma.com/wp-content/themes/swati/img/logo_symbolonly.svg"></a>
-					</div>
+					<div class="main_logo"></div>
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 					<ul class="navigation">
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/adminHome'/>">Home</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/adminGallery'/>">Gallary</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/writeBlog'/>">Write Blog</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/myBlogs'/>">My Blogs</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/getMessages'/>" class="nav-link">Messages</a></li>
 					</ul>
 				</nav>
 			</header>
-
-
-
-			<script
-				src="http://swativerma.com/wp-content/themes/swati/js/jquery.smoothwheel.js"></script>
-
-
+			<script src="./static/js/jquery.smoothwheel.js"></script>
 
 			<script type="text/javascript">
 
@@ -152,57 +136,14 @@ $(document).ready(readyFn);
 })(jQuery);
 
     </script>
-			<!-- **************************************************************************************** -->
-
 			<div class="init" id="">
 
 				<!-- **************************************************************************************** -->
 				<section class="full" id="index"
-					style="background-image: url(./static/images/swati.jpg);">
-
-					<img class="home_logo"
-						src="http://swativerma.com/wp-content/themes/swati/img/logo_symbol.svg">
-
+					style="background-image: url(./static/images/IMG_HOME.jpg);">
 				</section>
 
-				<!-- **************************************************************************************** -->
-
-
-
-				<!-- <section class="" id="about">
-
-
-
-	<div class="dark_content">
-
-<div class="content">
-
-
-
-	<img src="http://swativerma.com/wp-content/themes/swati/img/swati_header.svg">
-
-
-
-<p><strong>My aim is to make every woman feel truly HEAVENLY!</strong></p>
-<p>Make-up is my passion and after 7 years as a highly respected and renowned PRO make-up artist I’m thrilled to be able to share with you all my expert industry knowledge, beauty HACKS and more, here on my very own exclusive website.</p>
-<p>My career has allowed me to visit some of the most gorgeous locations the world has to offer. I LOVE the sense of adventure that comes with being a global make-up artist. Creating the ultimate FLAWLESS complexion for my many famous clients makes everyday utterly magical. I just want to inspire women from all over the world to be the most beautiful version of themselves.</p>
-<p>I feel truly blessed that I get to meet so many incredible women each and every day! I especially adore working with brides, as it&#8217;s such a huge honour to create the ultimate glamorous look for someone on the most important day of their life.</p>
-<p>To ensure that you don’t miss a second of my incredibly exciting and creative journey, I’d like to invite you now to follow me on Instagram <a href="https://www.instagram.com/swativerma/" target="_blank" rel="noopener">@SWATIVERMA</a></p>
-
-
-
-	<img class="xoxo" src="http://swativerma.com/wp-content/themes/swati/img/swati_xoxo.svg">
-
-
-
-</div> -->
-
 			</div>
-
-
-
-			</section>
-
 			<!-- **************************************************************************************** -->
 
 			<style type="text/css">
@@ -277,194 +218,8 @@ $(document).ready(readyFn);
 })(jQuery);
 </script>
 
-
-			<section class="" id="fastfood">
-
-				<div class="lightgrey_content">
-
-					<div class="content">
-
-						<ul>
-
-
-
-							<!-- <li >	
-
-<a href="/portfolio">
-
-<div class="thumb" style="padding:0;margin:0;">
-
-<ul id="rotating-item-wrapper">
-<li style="background-image:url(http://swativerma.com/wp-content/themes/swati/img/animering/70F7382E-B2CA-485A-917C-95BAB0C19E93.JPG);"></li>
-<li style="background-image:url(http://swativerma.com/wp-content/themes/swati/img/animering/IMG_0143-1.jpg);"></li>	
-<li style="background-image:url(http://swativerma.com/wp-content/themes/swati/img/animering/IMG_0211-1.jpg);"></li>	
-<li style="background-image:url(http://swativerma.com/wp-content/themes/swati/img/animering/IMG_0337-1.jpg);"></li>	
-<li style="background-image:url(http://swativerma.com/wp-content/themes/swati/img/animering/IMG_0483-1.jpg);"></li>	
-<li style="background-image:url(http://swativerma.com/wp-content/themes/swati/img/animering/IMG_8904.JPG);"></li>	
-</ul>
-
-</div>
-
-<h2>See the portfolio</h2>
-
-<p>As a truly inspirational and creative make-up artist, Swati gives you an exclusive look at some of her most luxe beauty looks in this chic portfolio. After 7 years at the top of her industry, this most sought-after artist shares her stunning bridal transformations that leave her clients radiating STAR appeal.</p>
-
-<div class="page_rdm">See the portfolio</div>
-
-</a>
-
-</li> -->
-
-
-
-							<style type="text/css">
-.blog_column p img {
-	display: none;
-}
-
-.blog_column p br {
-	display: none;
-}
-</style>
-
-							
-
-						</ul>
-
-
-
-					</div>
-
-				</div>
-
-			</section>
-
-
-
-			<!-- <section class="" id="socialmedia">
-
-		<div class="socialmedia_content">
-
-<div class="content" style="text-align: center;">
-
-<a href="https://www.instagram.com/swativerma/" target="_blank">
-<h2>Make a booking request</h2>
-<p>Fill the form below, and our team will be in touch very soon.</p>
-</a>
-
-<div class="sf-wrapper" style="width: 100%;margin-bottom: 50px;box-sizing:border-box;">
-<div id="serviceform" style="max-width:600px;margin:0 auto;"></div><script type="text/javascript" language="javascript" src="https://serviceform.com/serviceform/js/14663"></script><script type="application/javascript" src="https://www.serviceform.com/serviceform.js/serviceform.js?swati" defer></script><link rel="stylesheet" href="https://www.serviceform.com/serviceform.js/serviceform.css?swati"></div>
-<style>#serviceform p.answer{font-size:15px !important;}@media screen and (max-width: 600px) {.sf-wrapper{padding:0 10px;}}
-#serviceform .form-subheader {font-size: 14px; line-height: 18px;} #serviceform .form-header {font-size: 17px; line-height: 24px;} #serviceform img.sf-top-logo { max-height: 45px;}.sf-top-logo-wrapper {margin-bottom: 25px; margin-top: 10px;}.services_darkcontent a {color: #f1bfc1;font-weight:600;}
-#serviceform p.answer {
-  font-size: 13px !important;
-  line-height: 19px !important;
-}
-#serviceform .form-subheader {
-  max-width: 80% !important;
-}
-#serviceform p.description {
-  font-size: 10px !important;
-}
-#serviceform .option-header {
- position: relative;
- top: -10px;
-}
-</style>
-
-<style type="text/css">
-	.slicker-instagram-placeholder {
-
-	width: 25% !important;
-	margin: 0 !important;
-
-}
-@media screen and (max-width: 1100px) {
-    .slicker-instagram-placeholder {width: 50% !important;}
-    .socialmedia_content {padding: 0 40px;}
-    }
-    @media screen and (max-width:800px) {
-    .slicker-instagram-placeholder {width: 100% !important;}
-    }
-</style>
-
-
-
-
-
-
-
-	</div>
-
-	</div>
-
-</section> -->
-
-
-
-			<!-- **************************************************************************************** -->
-
 		</div>
-
-		<!-- **************************************************************************************** -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<footer id="contact">
-			<div class="fcont_wrap">
-				<ul class="footer_col" style="text-align: left;">
-					<li><p>© Swati Verma 2019</p></li>
-					<li><p>
-							<strong>My aim is to make every woman feel truly
-								HEAVENLY!</strong>
-						</p></li>
-				</ul>
-
-				<ul class="footer_col">
-					<li><p>
-							<strong>Follow me on</strong>
-						</p></li>
-					<li><a href="https://www.instagram.com/swativerma/"
-						target="_blank"><i class="fa fa-instagram"></i></a> <a
-						href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
-						target="_blank"><i class="fa fa-youtube"></i></a> <a
-						href="https://www.facebook.com/swativermaofficial" target="_blank"><i
-							class="fa fa-facebook"></i></a> <a
-						href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
-							class="fa fa-snapchat-ghost"></i></a></li>
-				</ul>
-
-				<ul class="footer_col" style="text-align: right;">
-					<li><p>
-							<a href="/services">Interested in Swatis make-up? <strong
-								style="text-decoration: underline;">Book now!</strong></a>
-						</p></li>
-					<li><p>
-							Contact us <strong><a href="mailto:info@swativerma.com">info@swativerma.com</a></strong>
-						</p></li>
-					<li><p>
-							Read <strong><a href="/terms-and-conditions">Terms
-									and Conditions</a></strong>
-						</p></li>
-
-				</ul>
-			</div>
-		</footer>
-
-
-
-	</div>
-	<!-- #container -->
+		<!-- #container -->
 
 
 
@@ -548,7 +303,7 @@ doneResizing();
 
 
 	<script type="text/javascript"
-		src="http://swativerma.com/wp-content/themes/swati/js/main.js"></script>
+		src="${pageContext.request.contextPath}/static/js/main.js"></script>
 
 </body>
 
