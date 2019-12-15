@@ -102,7 +102,7 @@ img.wp-smiley, img.emoji {
 							href="<c:url value='/writeBlog'/>">Write Blog</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/myBlogs'/>">My Blogs</a></li>
+							href="<c:url value='/admin/myblogs'/>">My Blogs</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/getMessages'/>" class="nav-link">Messages</a></li>
