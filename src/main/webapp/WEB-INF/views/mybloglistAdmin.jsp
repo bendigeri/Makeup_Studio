@@ -113,19 +113,22 @@
 					<ul class="navigation">
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/adminHome'/>">Home</a></li>
+							href="<c:url value='/admin/adminHome'/>">Home</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/adminGallery'/>">Gallary</a></li>
+							href="<c:url value='/admin/adminGallery'/>">Gallary</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/writeBlog'/>">Write Blog</a></li>
+							href="<c:url value='/admin/writeBlog'/>">Write Blog</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/admin/myblogs'/>">My Blogs</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/getMessages'/>" class="nav-link">Messages</a></li>
+							href="<c:url value='/admin/getMessages'/>" class="nav-link">Messages</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/admin/logout'/>" class="nav-link">Logout</a></li>
 					</ul>
 				</nav>
 

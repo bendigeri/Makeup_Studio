@@ -9,7 +9,7 @@
 	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 <head>
 <link rel="stylesheet"
-	href="./static/css/style.css"
+	href="${pageContext.request.contextPath}/static/css/style.css"
 	type="text/css" media="all" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,9 +23,9 @@
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
 	rel="stylesheet">
 <link rel="stylesheet"
-	href="./static/css/font-awesome.min.css">
+	href="${pageContext.request.contextPath}/static/css/font-awesome.min.css">
 <link rel="stylesheet"
-	href="./static/css/lightbox.css">
+	href="${pageContext.request.contextPath}/static/css/lightbox.css">
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -61,13 +61,13 @@ img.wp-smiley, img.emoji {
 }
 </style>
 <link rel='stylesheet' id='fts-feeds-css'
-	href='./static/css/styles_4.9.10.css' type='text/css' media='all' />
+	href='${pageContext.request.contextPath}/static/css/styles_4.9.10.css' type='text/css' media='all' />
 <link rel='stylesheet' id='fts-popup-css'
-	href='./static/css/magnific-popup.css?ver=4.9.10' type='text/css'
+	href='${pageContext.request.contextPath}/static/css/magnific-popup.css?ver=4.9.10' type='text/css'
 	media='all' />
-<script type='text/javascript' src='./static/js/jquery.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/jquery.js'></script>
 <script type='text/javascript'
-	src='./static/js/jquery-migrate.min.js'></script>
+	src='${pageContext.request.contextPath}/static/js/jquery-migrate.min.js'></script>
 <style type="text/css">
 .recentcomments a {
 	display: inline !important;
@@ -119,19 +119,22 @@ img.wp-smiley, img.emoji {
 					<ul class="navigation">
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/adminHome'/>">Home</a></li>
+							href="<c:url value='/admin/adminHome'/>">Home</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/adminGallery'/>">Gallary</a></li>
+							href="<c:url value='/admin/adminGallery'/>">Gallary</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/writeBlog'/>">Write Blog</a></li>
+							href="<c:url value='/admin/writeBlog'/>">Write Blog</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/admin/myblogs'/>">My Blogs</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/getMessages'/>" class="nav-link">Messages</a></li>
+							href="<c:url value='/admin/getMessages'/>" class="nav-link">Messages</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/admin/logout'/>" class="nav-link">Logout</a></li>
 					</ul>
 				</nav>
 
@@ -140,7 +143,7 @@ img.wp-smiley, img.emoji {
 					<div class="flow_content firsttext">
 						<div class="flow_inside image left">
 							<img
-								src="./static/images/IMG_HOME.jpg">
+								src="${pageContext.request.contextPath}/static/images/IMG_HOME.jpg">
 						</div>
 						<div class="flow_inside text right">
 							<div class="" id="" style="margin-top: -50px;">

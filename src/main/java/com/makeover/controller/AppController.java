@@ -19,6 +19,7 @@ import org.springframework.security.authentication.AuthenticationTrustResolver;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.security.web.authentication.rememberme.PersistentTokenBasedRememberMeServices;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -80,7 +81,7 @@ public class AppController {
 	/**
 	 * This method will list all existing users.
 	 */
-	@RequestMapping(value = {"/adminHome" }, method = RequestMethod.GET)
+	@RequestMapping(value = {"/admin/adminHome" }, method = RequestMethod.GET)
 	public String listUsers(ModelMap model) {
 
 		model.addAttribute("makeupblog", new MakeupBlog());
@@ -244,7 +245,7 @@ public class AppController {
 		return "contact";
 	}
 	
-	@RequestMapping(value = "/getMessages", method = RequestMethod.GET)
+	@RequestMapping(value = "/admin/getMessages", method = RequestMethod.GET)
 	public ModelAndView getMessages(@Valid UserMessages userMessages, BindingResult result,
 			ModelAndView model) {
 		List<UserMessages> msgList= userMessagesService.getMessageList();
@@ -278,7 +279,7 @@ public class AppController {
 		return model;
 	}
 	
-	@RequestMapping(value = {"admin/myblogs"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/admin/myblogs"}, method = RequestMethod.GET)
 	public ModelAndView  myblogAdmin(ModelAndView model) {
 		
 		List<MakeupBlog> blogs= makeupBlogService.blogList();
@@ -298,7 +299,7 @@ public class AppController {
 		if (isCurrentAuthenticationAnonymous()) {
 			return "login";
 	    } else {
-	    	return "redirect:/adminHome";  
+	    	return "redirect:/admin/adminHome";  
 	    }
 	}
 
@@ -306,12 +307,12 @@ public class AppController {
 	 * This method handles logout requests.
 	 * Toggle the handlers if you are RememberMe functionality is useless in your app.
 	 */
-	@RequestMapping(value="/logout", method = RequestMethod.GET)
+	@RequestMapping(value="admin/logout", method = RequestMethod.GET)
 	public String logoutPage (HttpServletRequest request, HttpServletResponse response){
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		if (auth != null){    
-			//new SecurityContextLogoutHandler().logout(request, response, auth);
-			persistentTokenBasedRememberMeServices.logout(request, response, auth);
+			new SecurityContextLogoutHandler().logout(request, response, auth);
+			//persistentTokenBasedRememberMeServices.logout(request, response, auth);
 			SecurityContextHolder.getContext().setAuthentication(null);
 		}
 		return "redirect:/login?logout";
@@ -340,14 +341,14 @@ public class AppController {
 	    return authenticationTrustResolver.isAnonymous(authentication);
 	}
 
-	@RequestMapping(value = "/writeBlog", method = RequestMethod.GET)
+	@RequestMapping(value = "/admin/writeBlog", method = RequestMethod.GET)
 	public String adminBlog(ModelMap model) {
 		MakeupBlog makeupBlog= new MakeupBlog();
 		model.addAttribute("makeupblog", makeupBlog);
 		return "writeBlog";
 	}
 	
-    @RequestMapping(value = "/postBlog", method = RequestMethod.POST)
+    @RequestMapping(value = "/admin/postBlog", method = RequestMethod.POST)
     public String postBlog(HttpServletRequest request,
             @RequestParam CommonsMultipartFile[] fileUpload,@Valid MakeupBlog makeupBlog, BindingResult result,
 			ModelMap model) throws Exception {
@@ -425,7 +426,7 @@ public class AppController {
 		return model;
 	}
     
-    @RequestMapping(value = "/adminGallery", method = RequestMethod.GET)
+    @RequestMapping(value = "/admin/adminGallery", method = RequestMethod.GET)
 	public String adminGallery(ModelMap model) {
 		Gallery gallery= new Gallery();
 		model.addAttribute("gallery", gallery);

@@ -18,20 +18,20 @@
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
 	rel="stylesheet">
 
-<link rel="stylesheet" href="./static/css/style.css" type='text/css'>
-<link rel="stylesheet" href="./static/css/font-awesome.min.css">
-<link rel="stylesheet" href="./static/css/lightbox.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/style.css" type='text/css'>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/font-awesome.min.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/lightbox.css">
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	crossorigin="anonymous"></script>
-<script type="text/javascript" src="./static/js/modernizr.js"></script>
-<script type="text/javascript" src="./static/js/TweenMax.min.js"></script>
-<script type="text/javascript" src="./static/js/ScrollToPlugin.min.js"></script>
-<script type="text/javascript" src="./static/js/ScrollMagic.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/modernizr.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/ScrollToPlugin.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/ScrollMagic.js"></script>
 <script type="text/javascript"
-	src="./static/js/plugins/animation.gsap.js"></script>
-<script type="text/javascript" src="./static/js/lightbox.js"></script>
+	src="${pageContext.request.contextPath}/static/js/plugins/animation.gsap.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/lightbox.js"></script>
 
 <title>Makeover By Manjuvani Vikrant</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -60,18 +60,18 @@ img.wp-smiley, img.emoji {
 }
 </style>
 <link rel='stylesheet' id='fts-feeds-css'
-	href='./static/css/styles_4.9.10.css' type='text/css' media='all' />
+	href='${pageContext.request.contextPath}/static/css/styles_4.9.10.css' type='text/css' media='all' />
 <link rel='stylesheet' id='fts-popup-css'
-	href='./static/css/magnific-popup.css?ver=4.9.10' type='text/css'
+	href='${pageContext.request.contextPath}/static/css/magnific-popup.css?ver=4.9.10' type='text/css'
 	media='all' />
-<script type='text/javascript' src='./static/js/jquery.js'></script>
-<script type='text/javascript' src='./static/js/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='./static/js/admin.js'></script>
-<script type='text/javascript' src='./static/js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/jquery.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/admin.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/masonry.pkgd.min.js'></script>
 <script type='text/javascript'
-	src='./static/js/imagesloaded.pkgd.min.js'></script>
-<script type='text/javascript' src='./static/js/fts-global.js'></script>
-<script type='text/javascript' src='./static/js/magnific-popup.js'></script>
+	src='${pageContext.request.contextPath}/static/js/imagesloaded.pkgd.min.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/fts-global.js'></script>
+<script type='text/javascript' src='${pageContext.request.contextPath}/static/js/magnific-popup.js'></script>
 
 <style type="text/css">
 .recentcomments a {
@@ -93,23 +93,26 @@ img.wp-smiley, img.emoji {
 					<ul class="navigation">
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/adminHome'/>">Home</a></li>
+							href="<c:url value='/admin/adminHome'/>">Home</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/adminGallery'/>">Gallary</a></li>
+							href="<c:url value='/admin/adminGallery'/>">Gallary</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/writeBlog'/>">Write Blog</a></li>
+							href="<c:url value='/admin/writeBlog'/>">Write Blog</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/admin/myblogs'/>">My Blogs</a></li>
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/getMessages'/>" class="nav-link">Messages</a></li>
+							href="<c:url value='/admin/getMessages'/>" class="nav-link">Messages</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="<c:url value='/admin/logout'/>" class="nav-link">Logout</a></li>
 					</ul>
 				</nav>
 			</header>
-			<script src="./static/js/jquery.smoothwheel.js"></script>
+			<script src="${pageContext.request.contextPath}/static/js/jquery.smoothwheel.js"></script>
 
 			<script type="text/javascript">
 
@@ -140,7 +143,7 @@ $(document).ready(readyFn);
 
 				<!-- **************************************************************************************** -->
 				<section class="full" id="index"
-					style="background-image: url(./static/images/IMG_HOME.jpg);">
+					style="background-image: url(${pageContext.request.contextPath}/static/images/IMG_HOME.jpg);">
 				</section>
 
 			</div>
