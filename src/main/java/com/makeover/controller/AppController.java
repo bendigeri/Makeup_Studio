@@ -419,10 +419,11 @@ public class AppController {
     @RequestMapping(value = "/getGelleryPhoto/{id}",method = RequestMethod.GET)
 	public void getGalleryPhoto(HttpServletResponse response,@PathVariable("id") int id) throws Exception {
 		response.setContentType("image/jpeg");
-		
-		byte[] bytes = galleryPhotosMap.get(id).getFileBytes();
-		InputStream inputStream = new ByteArrayInputStream(bytes);
-		IOUtils.copy(inputStream, response.getOutputStream());
+		if(galleryPhotosMap.get(id)!=null) {
+			byte[] bytes = galleryPhotosMap.get(id).getFileBytes();
+			InputStream inputStream = new ByteArrayInputStream(bytes);
+			IOUtils.copy(inputStream, response.getOutputStream());
+		}
 	}
     
 
@@ -458,8 +459,7 @@ public class AppController {
                 galleryService.save(gallery);               
             }
         }
-  
-        return "adminGallery";
+        return "redirect:/admin/adminGallery";
     }  
     
     

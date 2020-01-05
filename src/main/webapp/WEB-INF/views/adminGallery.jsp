@@ -43,7 +43,7 @@
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/static/js/lightbox.js"></script>
 
-<title>Know Me</title>
+<title>Gallery</title>
 
 <style type="text/css">
 </style>
