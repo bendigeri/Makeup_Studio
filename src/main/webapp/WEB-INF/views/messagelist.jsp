@@ -148,6 +148,7 @@
 								<tr>
 									<th>ID</h>
 									<th>Name</th>
+									<th>Phone Number</th>
 									<th>Email</th>
 									<th>Subject</th>
 									<th>Message</th>
@@ -158,6 +159,7 @@
 									<tr>
 										<td>${msg.id}</td>
 										<td>${msg.userName}</td>
+										<td>${msg.phoneNo}</td>
 										<td>${msg.email}</td>
 										<td>${msg.subject}</td>
 										<td>${msg.message}</td>

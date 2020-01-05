@@ -2,11 +2,14 @@ package com.makeover.controller;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -78,6 +81,9 @@ public class AppController {
 	@Autowired
 	GalleryService galleryService;
 	
+	public static List<Gallery> galleryPhotos;
+	public static List<MakeupBlog> blogs;
+	public static Map<Integer,Gallery> galleryPhotosMap= new HashMap<>();
 	/**
 	 * This method will list all existing users.
 	 */
@@ -96,9 +102,8 @@ public class AppController {
 	@RequestMapping(value = {"/"}, method = RequestMethod.GET)
 	public ModelAndView homePage(ModelAndView model) {
 
-		List<Gallery> galleryPhotos= galleryService.getGalleryImages();
-		List<MakeupBlog> blogs= makeupBlogService.blogList();
-		
+		galleryPhotos= galleryService.getGalleryImages();
+		blogs= makeupBlogService.blogList();
 		if(!blogs.isEmpty()) {
 			MakeupBlog makeupBlog = Collections.max(blogs, new Comparator<MakeupBlog>() {
 
@@ -110,8 +115,12 @@ public class AppController {
 			});
 		model.addObject("makeupBlog", makeupBlog);
 		}
-		
-    	model.addObject("galleryPhotos", galleryPhotos);
+		List<Integer> galleryPhotosId=new ArrayList<Integer>();
+		for(Gallery gallery: galleryPhotos) {
+			galleryPhotosMap.put(gallery.getId(), gallery);
+			galleryPhotosId.add(gallery.getId());
+		}
+    	model.addObject("galleryPhotos", galleryPhotosId);
     	
     	model.setViewName("home");
 		return model;
@@ -375,7 +384,7 @@ public class AppController {
             }
         }
   
-        return "registrationsuccess";
+        return "writeBlog";
     }  
     
     @RequestMapping(value = "/getblogPhoto/{id}",method = RequestMethod.GET)
@@ -411,7 +420,7 @@ public class AppController {
 	public void getGalleryPhoto(HttpServletResponse response,@PathVariable("id") int id) throws Exception {
 		response.setContentType("image/jpeg");
 		
-		byte[] bytes = galleryService.getPhotoById(id);
+		byte[] bytes = galleryPhotosMap.get(id).getFileBytes();
 		InputStream inputStream = new ByteArrayInputStream(bytes);
 		IOUtils.copy(inputStream, response.getOutputStream());
 	}
@@ -433,7 +442,7 @@ public class AppController {
 		return "adminGallery";
 	}
     
-    @RequestMapping(value = "/uploadImage", method = RequestMethod.POST)
+    @RequestMapping(value = "admin/uploadImage", method = RequestMethod.POST)
     public String uploadImageToGallery(HttpServletRequest request,
             @RequestParam CommonsMultipartFile[] fileUpload,@Valid Gallery gallery, BindingResult result,
 			ModelMap model) throws Exception {
@@ -450,7 +459,7 @@ public class AppController {
             }
         }
   
-        return "registrationsuccess";
+        return "adminGallery";
     }  
     
     

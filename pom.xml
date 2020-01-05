@@ -3,11 +3,10 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.websystique.springmvc</groupId>
-	<artifactId>SpringMVCHibernateWithSpringSecurityExample</artifactId>
+	<groupId>com.makeoverbymanju</groupId>
+	<artifactId>MakeoverbyManju</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>SpringMVCHibernateWithSpringSecurityExample</name>
 
   	<properties>
 		<springframework.version>4.2.5.RELEASE</springframework.version>
@@ -150,12 +149,13 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>SpringMVCHibernateWithSpringSecurityExample</warName>
+						<warName>MakeoverbyManju</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<finalName>SpringMVCHibernateWithSpringSecurityExample</finalName>
+		<finalName>MakeoverbyManju</finalName>
 	</build>
+	<name>MakeoverbyManju</name>
 </project>

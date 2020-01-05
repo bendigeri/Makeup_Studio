@@ -20,7 +20,7 @@
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
 	rel="stylesheet">
 
-<link rel="stylesheet" href="./static/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./static/css/lightbox.css">
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"
@@ -37,134 +37,7 @@
 <title>Makeover By Manjuvani Vikrant</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 
-<style type="text/css">
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-body {
-    font-family: 'Lato', sans-serif;
-    color: #FFF;
-    background: #322f30;
-    -webkit-font-smoothing: antialiased;
-}
-a {
-    text-decoration: none;
-    color: #fff;
-}
-p > a:hover{
-    color: #d9d9d9;
-    text-decoration:  underline;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin:  1% 0 1% 0;
-}
-._12 {
-    font-size: 1.2em;
-}
-._14 {
-    font-size: 1.4em;
-}
-ul {
-    padding:0;
-    list-style: none;
-}
-.footer-social-icons {
-    width: 350px;
-    display:block;
-    margin: 0 auto;
-}
-.social-icon {
-    color: #fff;
-}
-ul.social-icons {
-    margin-top: 10px;
-}
-.social-icons li {
-    vertical-align: top;
-    display: inline;
-    height: 100px;
-}
-.social-icons a {
-    color: #fff;
-    text-decoration: none;
-}
-.fa-facebook {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
-.fa-twitter {
-    padding:10px 12px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-twitter:hover {
-    background-color: #00aced;
-}
-.fa-rss {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-rss:hover {
-    background-color: #eb8231;
-}
-.fa-youtube {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-youtube:hover {
-    background-color: #e64a41;
-}
-.fa-linkedin {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-linkedin:hover {
-    background-color: #0073a4;
-}
-.fa-google-plus {
-    padding:10px 9px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-google-plus:hover {
-    background-color: #e25714;
-}
-</style>
+
 <meta name="generator" content="WordPress 4.9.10" />
 <meta name="template" content="Hybrid 1.2" />
 <script type="text/javascript">
@@ -254,9 +127,13 @@ img.wp-smiley, img.emoji {
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>">Contact</a></li>
-				<%-- 		<li
+				
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page">Follow Me on</li>
+							
+						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
-							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li> --%>
+							href="https://www.instagram.com/makeoverbymanjuvani_vikrant/" target="_blank" class="nav-link"><i class="fa fa-instagram" style="font-size:36px;color:white"></i></a></li>
 					</ul>
 				</nav>
 			</header>
@@ -361,13 +238,13 @@ $(document).ready(readyFn);
 										<ul id="rotating-item-wrapper">
 											<c:forEach var="galleryPhoto" items="${galleryPhotos}">
 												<li
-													style="background-image: url('getGelleryPhoto/<c:out value='${galleryPhoto.id}'/>');"></li>
+													style="background-image: url('getGelleryPhoto/<c:out value='${galleryPhoto}'/>');"></li>
 											</c:forEach>
 										</ul>
 
 									</div>
 
-									<h2>See the portfolio</h2>
+									<h2 style="font-family: cursive; color: white">See the portfolio</h2>
 
 									<p>As a truly inspirational and creative make-up artist,
 										Swati gives you an exclusive look at some of her most luxe
@@ -376,7 +253,7 @@ $(document).ready(readyFn);
 										stunning bridal transformations that leave her clients
 										radiating STAR appeal.</p>
 
-									<div class="page_rdm" style="background-color: white">See
+									<div class="page_rdm" style="background-color: white; color: black" >See
 										the portfolio</div>
 
 							</a></li>
@@ -394,11 +271,11 @@ $(document).ready(readyFn);
 								href="<c:url value='/blogDetail/${makeupBlog.id}'/>">
 									<div class="thumb"
 										style="background-image: url('getblogPhoto/<c:out value='${makeupBlog.id}'/>');"></div>
-									<h2 style="font-family: 'Playfair Display', serif;">My
+									<h2 style="font-family: cursive; color: white">My
 										latest blog post</h2>
 									<p>${makeupBlog.shortArticleContent}</p>...
 
-									<div class="page_rdm" style="background-color: white">Read
+									<div class="page_rdm" style="background-color: white;color: black"">Read
 										the post</div>
 							</a></li> </
 					</div>
@@ -407,98 +284,41 @@ $(document).ready(readyFn);
 
 			</section>
 
-
-
-			<!-- <section class="" id="socialmedia">
-
-		<div class="socialmedia_content">
-
-<div class="content" style="text-align: center;">
-
-<a href="https://www.instagram.com/swativerma/" target="_blank">
-<h2>Make a booking request</h2>
-<p>Fill the form below, and our team will be in touch very soon.</p>
-</a>
-
-<div class="sf-wrapper" style="width: 100%;margin-bottom: 50px;box-sizing:border-box;">
-<div id="serviceform" style="max-width:600px;margin:0 auto;"></div><script type="text/javascript" language="javascript" src="https://serviceform.com/serviceform/js/14663"></script><script type="application/javascript" src="https://www.serviceform.com/serviceform.js/serviceform.js?swati" defer></script><link rel="stylesheet" href="https://www.serviceform.com/serviceform.js/serviceform.css?swati"></div>
-<style>#serviceform p.answer{font-size:15px !important;}@media screen and (max-width: 600px) {.sf-wrapper{padding:0 10px;}}
-#serviceform .form-subheader {font-size: 14px; line-height: 18px;} #serviceform .form-header {font-size: 17px; line-height: 24px;} #serviceform img.sf-top-logo { max-height: 45px;}.sf-top-logo-wrapper {margin-bottom: 25px; margin-top: 10px;}.services_darkcontent a {color: #f1bfc1;font-weight:600;}
-#serviceform p.answer {
-  font-size: 13px !important;
-  line-height: 19px !important;
-}
-#serviceform .form-subheader {
-  max-width: 80% !important;
-}
-#serviceform p.description {
-  font-size: 10px !important;
-}
-#serviceform .option-header {
- position: relative;
- top: -10px;
-}
-</style>
-
-<style type="text/css">
-	.slicker-instagram-placeholder {
-
-	width: 25% !important;
-	margin: 0 !important;
-
-}
-@media screen and (max-width: 1100px) {
-    .slicker-instagram-placeholder {width: 50% !important;}
-    .socialmedia_content {padding: 0 40px;}
-    }
-    @media screen and (max-width:800px) {
-    .slicker-instagram-placeholder {width: 100% !important;}
-    }
-</style>
-
-
-	</div>
-
-	</div>
-
-</section> -->
-			<!-- **************************************************************************************** -->
-
 		</div>
 
-		<!-- **************************************************************************************** -->
-		<footer id="contact">
-			<!-- <div class="fcont_wrap">
+	<footer id="contact">
+				<div class="fcont_wrap">
+					<ul class="footer_col" style="text-align: left;">
+						<li><p></p></li>
+						<li><p>
+								<strong>My aim is to make every woman feel truly
+									HEAVENLY!</strong>
+							</p></li>
+					</ul>
 
-				<ul class="footer_col">
-					<li><p>
-							<strong>Follow me on</strong>
-						</p></li>
-					<li><a href="https://www.instagram.com/swativerma/"
-						target="_blank"><i class="fa fa-instagram"></i></a> <a
-						href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
-						target="_blank"><i class="fa fa-youtube"></i></a> <a
-						href="https://www.facebook.com/swativermaofficial" target="_blank"><i
-							class="fa fa-facebook"></i></a> <a
-						href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
-							class="fa fa-snapchat-ghost"></i></a></li>
-				</ul>
+					<ul class="footer_col">
+						<li><p>
+								<strong>Follow me on</strong>
+							</p></li>
+						<li><a href="https://www.instagram.com/makeoverbymanjuvani_vikrant/"
+							target="_blank"><i class="fa fa-instagram"></i></a> <!-- <a
+							href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
+							target="_blank"><i class="fa fa-youtube"></i></a> <a
+							href="https://www.facebook.com/swativermaofficial"
+							target="_blank"><i class="fa fa-facebook"></i></a> <a
+							href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
+								class="fa fa-snapchat-ghost"></i></a> --></li>
+					</ul>
 
-				<ul class="footer_col" style="text-align: right;">
-				</ul>
-			</div> -->
-			<div class="footer-social-icons">
-    <h4 class="_14">Follow us on</h4>
-    <ul class="social-icons">
-        <li><a href="" class="social-icon"> <i class="fa fa-f acebook"></i></a></li>
-       <!--  <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li> -->
-        <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
-       <!--  <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li> -->
-        <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
-    </ul>
-</div>
-		</footer>
+					<ul class="footer_col" style="text-align: right;">
+						<li><p>
+								Contact us <strong><a href="mailto:info@swativerma.com">manjuvanivikrant@gmail.com</a></strong>
+							</p></li>
+						
+
+					</ul>
+				</div>
+			</footer>
 
 
 

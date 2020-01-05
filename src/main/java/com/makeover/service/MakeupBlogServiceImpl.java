@@ -53,4 +53,9 @@ public class MakeupBlogServiceImpl implements MakeupBlogService{
 		}
 	}
 
+	@Override
+	public List<MakeupBlog> latestBlog() {
+		return dao.latestBlog();
+	}
+
 }

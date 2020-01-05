@@ -22,8 +22,7 @@
 	rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
 	rel="stylesheet">
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/static/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/static/css/lightbox.css">
 
@@ -85,19 +84,6 @@ img.wp-smiley, img.emoji {
 <body
 	class="wordpress ltr en_US child-theme y2019 m10 d20 h19 sunday logged-out singular singular-page singular-page-30 page-template-flow page-30 chrome primary-active secondary-inactive subsidiary-inactive">
 
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-101676500-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-
 	<div id="">
 
 
@@ -109,10 +95,6 @@ img.wp-smiley, img.emoji {
 			<header>
 
 				<nav class="desktop_nav">
-
-					<style type="text/css">
-</style>
-
 
 					<span class="showhide"><i class="fa fa-bars"></i></span>
 
@@ -132,6 +114,13 @@ img.wp-smiley, img.emoji {
 						<li
 							class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
+							
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page">Follow Me on</li>
+							
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="https://www.instagram.com/makeoverbymanjuvani_vikrant/" target="_blank" class="nav-link"><i class="fa fa-instagram" style="font-size:36px;color:white"></i></a></li>
 					</ul>
 				</nav>
 
@@ -176,7 +165,7 @@ img.wp-smiley, img.emoji {
 			<footer id="contact">
 				<div class="fcont_wrap">
 					<ul class="footer_col" style="text-align: left;">
-						<li><p>© Swati Verma 2019</p></li>
+						<li><p></p></li>
 						<li><p>
 								<strong>My aim is to make every woman feel truly
 									HEAVENLY!</strong>

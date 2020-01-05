@@ -22,7 +22,7 @@
 	rel="stylesheet">
 
 <link rel="stylesheet" href="./static/css/style.css" type='text/css'>
-<link rel="stylesheet" href="./static/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./static/css/lightbox.css">
 
 
@@ -125,6 +125,12 @@ img.wp-smiley, img.emoji {
 							href="<c:url value='/myblogs'/>">My Blog</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page">Follow Me on</li>
+							
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="https://www.instagram.com/makeoverbymanjuvani_vikrant/" target="_blank" class="nav-link"><i class="fa fa-instagram" style="font-size:36px;color:white"></i></a></li>
 					</ul>
 				</nav>
 
@@ -283,58 +289,22 @@ img.wp-smiley, img.emoji {
 					</div>
 
 					<ul class="contact_social">
-						<li><h2>Don’t forget to follow my journey on social
+						<li><h2 style="font-family: cursive;">Don't forget to follow my journey on social
 								media</h2></li>
-						<li><a href="https://www.instagram.com/swativerma/"
-							target="_blank"><i class="fa fa-instagram"></i></a> <a
+						<li><a href="https://www.instagram.com/makeoverbymanjuvani_vikrant/"
+							target="_blank"><i class="fa fa-instagram"></i></a> <!-- <a
 							href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
 							target="_blank"><i class="fa fa-youtube"></i></a> <a
 							href="https://www.facebook.com/swativermaofficial"
 							target="_blank"><i class="fa fa-facebook"></i></a> <a
 							href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
-								class="fa fa-snapchat-ghost"></i></a></li>
+								class="fa fa-snapchat-ghost"></i></a> --></li>
 					</ul>
 
-					<div class="flow_content secondtext">
-						<div class="flow_inside text left">
-							<h2>For collaborations and press enquires regarding Swati
-								Verma</h2>
-							<p>As a PRO make-up artist and beauty influencer. I’m always
-								open to collaborate and work with exciting beauty brands. I
-								adore sharing innovative products that will appeal to my 240k +
-								followers. If you would like to work with me on a new product
-								launch or campaign.</p>
-							<p>
-								<strong>Please contact our agency</strong><br /> <a
-									href="mailto:business@swati.com">business@swati.com</a><br />
-								Tel/whatsapp: +971549970400
-							</p>
-						</div>
-						<div class="flow_inside image right">
-							<img
-								src="http://swativerma.com/wp-content/uploads/2017/05/Collab.jpg">
-						</div>
-					</div>
-
-
-
-
-
-
-
-
-
 				</section>
-				<!-- **************************************************************************************** -->
 
 
-				<!-- **************************************************************************************** -->
 			</div>
-			<!-- **************************************************************************************** -->
-
-
-
-
 
 			<footer id="contact">
 				<div class="fcont_wrap">
@@ -350,18 +320,18 @@ img.wp-smiley, img.emoji {
 								<strong>Follow me on</strong>
 							</p></li>
 						<li><a href="https://www.instagram.com/swativerma/"
-							target="_blank"><i class="fa fa-instagram"></i></a> <a
+							target="_blank"><i class="fa fa-instagram"></i></a><!--  <a
 							href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
 							target="_blank"><i class="fa fa-youtube"></i></a> <a
 							href="https://www.facebook.com/swativermaofficial"
 							target="_blank"><i class="fa fa-facebook"></i></a> <a
 							href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
-								class="fa fa-snapchat-ghost"></i></a></li>
+								class="fa fa-snapchat-ghost"></i></a> --></li>
 					</ul>
 
 					<ul class="footer_col" style="text-align: right;">
 						<li><p>
-								Contact us <strong><a href="mailto:info@swativerma.com">manjuvaniVikrant@gmail.com</a></strong>
+								Contact us <strong><a href="mailto:manjuvanivikrant@gmail.com">manjuvanivikrant@gmail.com</a></strong>
 							</p></li>
 						
 

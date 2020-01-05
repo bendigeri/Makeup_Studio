@@ -26,8 +26,7 @@
 	rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Homemade+Apple"
 	rel="stylesheet">
-<link rel="stylesheet"
-	href="./static/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet"
 	href="./static/css/lightbox.css">
 
@@ -138,11 +137,6 @@ img.wp-smiley, img.emoji {
 
 				<nav class="desktop_nav">
 
-					<div class="main_logo">
-						<a href="http://swativerma.com/"><img
-							src="http://swativerma.com/wp-content/themes/swati/img/logo_symbolonly.svg"></a>
-					</div>
-
 
 					<style type="text/css">
 </style>
@@ -161,6 +155,12 @@ img.wp-smiley, img.emoji {
 							href="<c:url value='/myblogs'/>">My Blog</a></li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a
 							href="<c:url value='/contact'/>" class="nav-link">Contact</a></li>
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page">Follow Me on</li>
+							
+						<li
+							class="menu-item menu-item-type-post_type menu-item-object-page"><a
+							href="https://www.instagram.com/makeoverbymanjuvani_vikrant/" target="_blank" class="nav-link"><i class="fa fa-instagram" style="font-size:36px;color:white"></i></a></li>
 					</ul>
 				</nav>
 
@@ -177,8 +177,8 @@ img.wp-smiley, img.emoji {
 							class="sep">/</span> <span class="trail-end">Blog</span>
 					</div>
 					<div class="blogintro">
-						<h1>Swatiâs World</h1>
-						<p>Read Swatiâs take on all the HOTTEST global make-up and
+						<h1>Manju's World</h1>
+						<p>Manju's take on all the HOTTEST global make-up and
 							beauty trends.</p>
 					</div>
 
@@ -228,19 +228,18 @@ img.wp-smiley, img.emoji {
 								<strong>Follow me on</strong>
 							</p></li>
 						<li><a href="https://www.instagram.com/swativerma/"
-							target="_blank"><i class="fa fa-instagram"></i></a> <a
+							target="_blank"><i class="fa fa-instagram"></i></a><!--  <a
 							href="https://m.youtube.com/channel/UCK2plxDlloUzkVdfugEXvNQ"
 							target="_blank"><i class="fa fa-youtube"></i></a> <a
 							href="https://www.facebook.com/swativermaofficial"
 							target="_blank"><i class="fa fa-facebook"></i></a> <a
 							href="https://www.snapchat.com/add/Swativerma27" target="_blank"><i
-								class="fa fa-snapchat-ghost"></i></a></li>
+								class="fa fa-snapchat-ghost"></i></a> --></li>
 					</ul>
 
 					<ul class="footer_col" style="text-align: right;">
-						
 						<li><p>
-								Contact us <strong><a href="mailto:info@swativerma.com">manjuvaniVikrant@gmail.com</a></strong>
+								Contact us <strong><a href="mailto:manjuvanivikrant@gmail.com">manjuvanivikrant@gmail.com</a></strong>
 							</p></li>
 						
 

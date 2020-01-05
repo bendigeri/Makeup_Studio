@@ -9,4 +9,5 @@ public interface MakeupBlogDao {
 	public List<MakeupBlog> blogList();
 	public byte[] getPhotoById(int id);
 	public MakeupBlog getBlogById(int id);
+	public List<MakeupBlog> latestBlog();
 }
